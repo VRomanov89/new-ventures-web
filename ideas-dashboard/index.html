@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>New Ventures Ideas</title>
+<style>
+:root{
+  --bg:#f6f7f9;--surface:#fff;--text:#1b1f24;--muted:#5f6b7a;--line:#e2e6eb;
+  --accent:#2457d6;--a:#1f8a4c;--b:#b07a10;--c:#8a94a3;--chip:#eef1f5;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111418;--surface:#1a1e24;--text:#e7ebf0;--muted:#98a3b1;--line:#2b313a;
+  --accent:#7aa2ff;--a:#4cc382;--b:#e0ad45;--c:#7d8796;--chip:#242a32;}}
+:root[data-theme="dark"]{
+  --bg:#111418;--surface:#1a1e24;--text:#e7ebf0;--muted:#98a3b1;--line:#2b313a;
+  --accent:#7aa2ff;--a:#4cc382;--b:#e0ad45;--c:#7d8796;--chip:#242a32;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif}
+header,main{max-width:1400px;margin:0 auto;padding:0 16px}
+header{padding-top:28px;padding-bottom:8px}
+h1{margin:0;font-size:24px}
+.sub{color:var(--muted);margin-top:4px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:18px 0}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.stat b{display:block;font-size:22px}.stat span{color:var(--muted);font-size:12px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+input,select,button{font:inherit;color:var(--text);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:7px 10px}
+input[type=search]{flex:1;min-width:200px}
+button{cursor:pointer}
+details.weights{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-bottom:12px}
+details.weights summary{cursor:pointer;font-weight:600}
+.wgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px 16px;margin-top:10px}
+.wgrid label{display:flex;justify-content:space-between;gap:8px;font-size:13px}
+.wgrid input{width:90px;padding:0}
+.tablewrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;min-width:900px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{position:sticky;top:0;background:var(--surface);font-size:12px;color:var(--muted);cursor:pointer;user-select:none;white-space:nowrap}
+th.sorted{color:var(--accent)}
+td.n{text-align:right;font-variant-numeric:tabular-nums}
+tr.row{cursor:pointer}tr.row:hover{background:var(--chip)}
+.tier{display:inline-block;min-width:22px;text-align:center;border-radius:6px;font-weight:700;color:#fff;padding:0 6px}
+.tA{background:var(--a)}.tB{background:var(--b)}.tC{background:var(--c)}
+.chip{display:inline-block;background:var(--chip);border-radius:6px;padding:0 6px;font-size:12px;margin-right:4px}
+.cell{display:inline-block;width:22px;text-align:center;border-radius:4px;font-size:12px}
+.bar{height:6px;border-radius:3px;background:var(--accent);opacity:.75}
+.detail td{background:var(--bg)}
+.detail dl{display:grid;grid-template-columns:150px 1fr;gap:4px 12px;margin:4px 0}
+.detail dt{color:var(--muted)}.detail dd{margin:0}
+a{color:var(--accent)}
+.empty{padding:40px;text-align:center;color:var(--muted)}
+.warn{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--b);border-radius:8px;padding:10px 14px;margin-bottom:12px}
+footer{max-width:1400px;margin:16px auto 40px;padding:0 16px;color:var(--muted);font-size:12px}
+@media (max-width:640px){.detail dl{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <h1>New Ventures — Ideas</h1>
+  <div class="sub" id="sub"></div>
+  <div class="stats" id="stats"></div>
+</header>
+<main>
+  <div id="warn"></div>
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search name, problem, customer…">
+    <select id="fTier"><option value="">All tiers</option><option>A</option><option>B</option><option>C</option></select>
+    <select id="fConf"><option value="">All confidence</option><option>High</option><option>Medium</option><option>Low</option></select>
+    <select id="fModel"><option value="">All models</option></select>
+    <select id="fRun"><option value="">All runs</option></select>
+    <select id="fStage"><option value="">All stages</option><option>Initial</option><option>Researched</option></select>
+    <button id="reset">Reset</button>
+    <button id="csv">Export CSV</button>
+  </div>
+  <details class="weights">
+    <summary>Scoring weights (re-rank live)</summary>
+    <div class="wgrid" id="wgrid"></div>
+    <p class="sub">Weights are normalized to 100%. Score = Σ(criterion × weight) × 20.</p>
+  </details>
+  <div class="tablewrap"><table><thead><tr id="thead"></tr></thead><tbody id="tbody"></tbody></table></div>
+</main>
+<footer id="foot"></footer>
+<script src="data.js"></script>
+<script>
+const D = window.IDEAS_DATA || {ideas:[],runs:[],criteria:[],incomplete:{}};
+const CRIT = [["C1","Demand"],["C2","Founder Fit"],["C3","Profit"],["C4","Feasibility"],["C5","Speed"],["C6","Competition"],["C7","Timing"],["C8","Defensibility"]];
+const DEFAULT_W = {C1:20,C2:15,C3:15,C4:15,C5:10,C6:10,C7:10,C8:5};
+let W = {...DEFAULT_W}, sortKey = "live", sortDir = -1, open = new Set();
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const md = s => esc(s).replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+
+function live(i){
+  const s = i.scores || {}; const tot = Object.values(W).reduce((a,b)=>a+b,0) || 1;
+  if (CRIT.some(([k]) => s[k] == null)) return i.score ?? null;
+  return Math.round(CRIT.reduce((a,[k]) => a + s[k]*W[k]/tot, 0)*20*10)/10;
+}
+const tierOf = v => v == null ? "" : v >= 75 ? "A" : v >= 60 ? "B" : "C";
+
+function init(){
+  $("sub").textContent = `Generated ${D.generated || "—"} · ${D.ideas.length} ideas from ${D.runs.length} run(s)`;
+  const models = [...new Set(D.ideas.map(i => i.model).filter(Boolean))].sort();
+  models.forEach(m => $("fModel").add(new Option(m)));
+  D.runs.forEach(r => $("fRun").add(new Option(`${r.runId} · ${r.focus}`, r.runId)));
+  $("wgrid").innerHTML = CRIT.map(([k,n]) => `<label>${k} ${n}<input type="range" min="0" max="40" value="${W[k]}" data-k="${k}"><span id="w${k}">${W[k]}</span></label>`).join("");
+  $("wgrid").addEventListener("input", e => { const k = e.target.dataset.k; if(!k) return; W[k] = +e.target.value; $("w"+k).textContent = W[k]; render(); });
+  ["q","fTier","fConf","fModel","fRun","fStage"].forEach(id => $(id).addEventListener("input", render));
+  $("reset").onclick = () => { ["q","fTier","fConf","fModel","fRun","fStage"].forEach(id => $(id).value = ""); W = {...DEFAULT_W};
+    document.querySelectorAll("#wgrid input").forEach(el => { el.value = W[el.dataset.k]; $("w"+el.dataset.k).textContent = W[el.dataset.k]; }); render(); };
+  $("csv").onclick = exportCsv;
+  const inc = Object.keys(D.incomplete || {});
+  if (inc.length) $("warn").innerHTML = `<div class="warn"><b>${inc.length} idea(s) missing fields:</b> ${inc.map(esc).join(", ")}</div>`;
+  $("foot").innerHTML = D.runs.map(r => `${esc(r.runId)} — ${esc(r.focus)} (${esc(r.runDate)}) · <code>${esc(r.sourceFile)}</code>`).join("<br>");
+  render();
+}
+
+const COLS = [["rank","#"],["name","Idea"],["model","Model"],["stage","Stage"],...CRIT.map(([k,n]) => [k,n]),["live","Score"],["tier","Tier"],["confidence","Conf."]];
+function val(i,k){ if(k==="live") return live(i); if(k==="tier") return tierOf(live(i)); if(k.startsWith("C")&&k.length===2) return (i.scores||{})[k]; return i[k]; }
+
+function filtered(){
+  const q = $("q").value.toLowerCase();
+  return D.ideas.filter(i =>
+    (!q || [i.name,i.oneLiner,i.problem,i.customer,i.category,i.model,i.id].join(" ").toLowerCase().includes(q)) &&
+    (!$("fTier").value || tierOf(live(i)) === $("fTier").value) &&
+    (!$("fConf").value || i.confidence === $("fConf").value) &&
+    (!$("fModel").value || i.model === $("fModel").value) &&
+    (!$("fRun").value || i.runId === $("fRun").value) &&
+    (!$("fStage").value || i.stage === $("fStage").value)
+  ).sort((a,b) => { const x = val(a,sortKey), y = val(b,sortKey);
+    if (x == null) return 1; if (y == null) return -1;
+    return (typeof x === "number" ? x - y : String(x).localeCompare(String(y))) * sortDir; });
+}
+
+function render(){
+  const rows = filtered();
+  const scores = rows.map(live).filter(v => v != null);
+  const count = t => rows.filter(i => tierOf(live(i)) === t).length;
+  $("stats").innerHTML = [["Shown",rows.length],["Tier A",count("A")],["Tier B",count("B")],["Tier C",count("C")],
+    ["Avg score",scores.length ? (scores.reduce((a,b)=>a+b,0)/scores.length).toFixed(1) : "—"],
+    ["Researched",rows.filter(i => i.stage==="Researched").length]]
+    .map(([l,v]) => `<div class="stat"><b>${v}</b><span>${l}</span></div>`).join("");
+  $("thead").innerHTML = COLS.map(([k,n]) => `<th data-k="${k}" class="${k===sortKey?"sorted":""}">${n}${k===sortKey?(sortDir>0?" ▲":" ▼"):""}</th>`).join("");
+  if (!rows.length){ $("tbody").innerHTML = `<tr><td colspan="${COLS.length}" class="empty">${D.ideas.length ? "No ideas match these filters." : "No ideas yet. Run WF-01 Idea Generation, then WF-02 to update this page."}</td></tr>`; return; }
+  $("tbody").innerHTML = rows.map(i => {
+    const s = i.scores || {}, L = live(i), t = tierOf(L);
+    const row = `<tr class="row" data-id="${esc(i.id)}"><td class="n">${i.rank ?? ""}</td><td><b>${esc(i.name)}</b><br><span class="sub">${esc(i.oneLiner || "").slice(0,110)}</span></td>
+      <td><span class="chip">${esc(i.model || "")}</span></td><td>${esc(i.stage)}</td>
+      ${CRIT.map(([k]) => `<td class="n"><span class="cell" style="background:color-mix(in srgb, var(--accent) ${(s[k]||0)*14}%, transparent)">${s[k] ?? "–"}</span></td>`).join("")}
+      <td class="n"><b>${L ?? "–"}</b><div class="bar" style="width:${L||0}%"></div></td>
+      <td>${t ? `<span class="tier t${t}">${t}</span>` : ""}</td><td>${esc(i.confidence || "")}</td></tr>`;
+    if (!open.has(i.id)) return row;
+    const f = [["ID",i.id],["Category",i.category],["Target customer",i.customer],["Problem",i.problem],["Why now",i.whyNow],["Signals",i.signals],
+      ["Founder fit",i.founderFit],["Key risk",i.keyRisk],["First step",i.firstStep],["Status",i.status],["Source",i.sourceFile]].filter(([,v]) => v);
+    return row + `<tr class="detail"><td></td><td colspan="${COLS.length-1}"><dl>${f.map(([k,v]) => `<dt>${k}</dt><dd>${md(v)}</dd>`).join("")}</dl></td></tr>`;
+  }).join("");
+}
+
+$("thead").addEventListener("click", e => { const k = e.target.closest("th")?.dataset.k; if(!k) return;
+  if (k === sortKey) sortDir *= -1; else { sortKey = k; sortDir = ["name","model","stage","tier","confidence","rank"].includes(k) ? 1 : -1; } render(); });
+$("tbody").addEventListener("click", e => { if (e.target.closest("a")) return; const id = e.target.closest("tr.row")?.dataset.id; if(!id) return;
+  open.has(id) ? open.delete(id) : open.add(id); render(); });
+
+function exportCsv(){
+  const head = ["id","name","model","stage",...CRIT.map(c=>c[0]),"score","tier","confidence","oneLiner","customer","keyRisk"];
+  const lines = filtered().map(i => head.map(h => { const v = h==="score" ? live(i) : h==="tier" ? tierOf(live(i)) : /^C\d$/.test(h) ? (i.scores||{})[h] : i[h];
+    return `"${String(v ?? "").replace(/"/g,'""')}"`; }).join(","));
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([[head.join(","),...lines].join("\n")], {type:"text/csv"}));
+  a.download = "ideas.csv"; a.click();
+}
+init();
+</script>
+</body>
+</html>
