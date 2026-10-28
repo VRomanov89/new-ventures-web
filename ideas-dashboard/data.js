@@ -1,5 +1,5 @@
 window.IDEAS_DATA = {
- "generated": "2026-10-27 19:55",
+ "generated": "2026-10-27 20:11",
  "criteria": [
   {
    "key": "C1",

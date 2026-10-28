@@ -150,7 +150,7 @@ function render(){
       <td class="n"><b>${L ?? "–"}</b><div class="bar" style="width:${L||0}%"></div></td>
       <td>${t ? `<span class="tier t${t}">${t}</span>` : ""}</td><td>${esc(i.confidence || "")}</td></tr>`;
     if (!open.has(i.id)) return row;
-    const f = [["ID",i.id],["Category",i.category],["Target customer",i.customer],["Problem",i.problem],["Why now",i.whyNow],["Signals",i.signals],
+    const f = [["Recommendation",i.recommendation],["Research summary",i.summary],["Research folder",i.folder],["ID",i.id],["Category",i.category],["Target customer",i.customer],["Problem",i.problem],["Why now",i.whyNow],["Signals",i.signals],
       ["Founder fit",i.founderFit],["Key risk",i.keyRisk],["First step",i.firstStep],["Status",i.status],["Source",i.sourceFile]].filter(([,v]) => v);
     return row + `<tr class="detail"><td></td><td colspan="${COLS.length-1}"><dl>${f.map(([k,v]) => `<dt>${k}</dt><dd>${md(v)}</dd>`).join("")}</dl></td></tr>`;
   }).join("");

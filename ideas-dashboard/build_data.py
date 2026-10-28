@@ -44,6 +44,7 @@ REQUIRED = ["name", "oneLiner", "customer", "problem", "whyNow", "signals",
             "founderFit", "keyRisk", "firstStep", "score", "tier", "confidence"]
 IDEA_ID = re.compile(r"IG-\d{8}-\d{2}-\d{2}")
 RUN_ID = re.compile(r"IG-\d{8}-\d{2}")
+DR_ID = re.compile(r"DR-\d{8}-\d{2}")
 LINK = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 
 
@@ -160,9 +161,9 @@ def parse_idea_folder(folder):
     title = re.search(r"^# +(.+)$", text, re.M)
     status = section(text, r"Status")
     sm = re.search(r"\b(Exploring|Validating|Building|Parked|Dropped)\b", status, re.I)
-    idm = IDEA_ID.search(text)
+    idm = IDEA_ID.search(text) or DR_ID.search(text)
     summary = section(text, r"Summary").strip().split("\n\n")[0].strip()
-    return {
+    idea = {
         "id": idm.group(0) if idm else "DIR-" + folder.name,
         "name": title.group(1).strip() if title else folder.name,
         "stage": "Researched",
@@ -171,6 +172,24 @@ def parse_idea_folder(folder):
         "folder": str(folder.relative_to(ROOT)),
         "sourceFile": str(readme.relative_to(ROOT)),
     }
+    rec = re.search(r"\|\s*\*\*Recommendation\*\*\s*\|\s*(.+?)\s*\|", text)
+    if rec and "/" not in rec.group(1):
+        idea["recommendation"] = rec.group(1)
+
+    # WF-03 scorecard: "| C1 Demand | 20% | <WF-01> | <New> | ... |"
+    scores = {}
+    for line in section(text, r"Scorecard").splitlines():
+        c = cells(line) if line.startswith("|") else []
+        if len(c) >= 4 and re.match(r"C[1-8]\b", c[0]):
+            scores[c[0][:2]] = num(c[3])
+    if all(scores.get(k) is not None for k in CRITERIA):
+        idea["scores"] = scores
+        idea["score"] = round(sum(scores[k] * w for k, w in zip(CRITERIA, WEIGHTS)) * 20, 1)
+        idea["tier"] = "A" if idea["score"] >= 75 else "B" if idea["score"] >= 60 else "C"
+    conf = re.search(r"\*\*Confidence:\*\*\s*(High|Medium|Low)\b", section(text, r"Scorecard"))
+    if conf:
+        idea["confidence"] = conf.group(1)
+    return idea
 
 
 def load_previous():
@@ -201,6 +220,8 @@ def main():
         if not promoted:
             continue
         base = ideas.get(promoted["id"], {})
+        if base.get("oneLiner") and promoted.get("oneLiner"):
+            promoted["summary"] = promoted.pop("oneLiner")
         merged = {**base, **{k: v for k, v in promoted.items() if v}}
         ideas[promoted["id"]] = merged
 
