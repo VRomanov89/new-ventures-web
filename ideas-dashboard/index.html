@@ -166,6 +166,7 @@ function init(){
   $("wgrid").innerHTML = CRIT.map(([k,n]) => `<label>${k} ${n}<input type="range" min="0" max="40" value="${W[k]}" data-k="${k}"><span id="w${k}">${W[k]}</span></label>`).join("");
   $("wgrid").addEventListener("input", e => { const k = e.target.dataset.k; if(!k) return; W[k] = +e.target.value; $("w"+k).textContent = W[k]; render(); });
   ["q","fTier","fConf","fModel","fRun","fStage"].forEach(id => $(id).addEventListener("input", render));
+  $("fRun").addEventListener("input", renderBatch);
   $("reset").onclick = () => { ["q","fTier","fConf","fModel","fRun","fStage"].forEach(id => $(id).value = ""); W = {...DEFAULT_W};
     document.querySelectorAll("#wgrid input").forEach(el => { el.value = W[el.dataset.k]; $("w"+el.dataset.k).textContent = W[el.dataset.k]; }); render(); };
   $("csv").onclick = exportCsv;
@@ -178,9 +179,9 @@ function init(){
 }
 
 function renderBatch(){
-  const r = D.runs[0]; if (!r) return;
+  const r = D.runs.find(x => x.runId === $("fRun").value) || D.runs[0]; if (!r) return;
   const tabs = [["summary","Executive summary"],["top","Top 5"],["themes","Highlights & themes"],["brief","Founder brief"],["nextSteps","Next steps"]].filter(([k]) => r[k]);
-  $("batch").innerHTML = `<details class="card pad batch" open><summary>Latest batch: ${esc(r.focus)} <span class="sub">(${esc(r.runId)} · ${esc(r.runDate)})</span></summary>
+  $("batch").innerHTML = `<details class="card pad batch" open><summary>Batch: ${esc(r.focus)} <span class="sub">(${esc(r.runId)} · ${esc(r.runDate)})</span></summary>
     <div class="tabs" id="btabs">${tabs.map(([k,n],j) => `<button class="tab ${j?"":"on"}" data-k="${k}">${n}</button>`).join("")}</div>
     <div class="md" id="bbody">${md(r[tabs[0]?.[0]])}</div></details>`;
   $("btabs").onclick = e => { const k = e.target.dataset.k; if(!k) return;

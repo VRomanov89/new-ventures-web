@@ -1,5 +1,5 @@
 window.IDEAS_DATA = {
- "generated": "2026-10-27 20:40",
+ "generated": "2026-10-27 21:53",
  "criteria": [
   {
    "key": "C1",
@@ -35,6 +35,17 @@ window.IDEAS_DATA = {
   }
  ],
  "runs": [
+  {
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "brief": "- **Founder profile:** Same two co-founders as IG-20261027-01. **Founder A (Ops/Tech):** electrical engineer and MBA, industrial automation, IoT and controls, plant maintenance leadership, runs an engineering-education business with a ~200k audience. **Founder B (Real Estate):** residential property manager running a team that manages ~400 doors.\n- **Goals & ambition:** Side income first. This batch focuses on **simpler, hands-on businesses**: installation and seasonal services, 3D printing, importing, and local manufacturing with used equipment.\n- **Constraints:** <$10k combined up-front capital; nights and weekends; local metro (Montreal/Laval) plus online.\n- **Ideas named by the user:** Tempo installation, deck building, 3D printing (reference: herschelshapiro.com), importing products, local manufacturing with auction equipment, and smart-home camera installation.\n- **Assumptions made:** Market is Montreal/Laval (Tempo shelters are a Quebec staple). Quebec licensing rules apply (RBQ, BSP, CMEQ).\n- **Brief confirmed by user:** Partially (direction given; constraints carried from the prior batch)",
+   "summary": "This batch scans hands-on and making businesses in the Quebec context. **The biggest finding is regulatory: Quebec licensing reshapes the list.** Deck building requires an RBQ contractor licence (exams and a $20k security), camera and alarm installation requires a Bureau de la sécurité privée (BSP) permit, and electrical wiring needs a CMEQ-licensed electrician. That pushes deck building and similar trades down the list, and favors (a) **unlicensed seasonal services** with legal deadlines (Tempo, lights, AC), (b) **3D printing tied to Founder A's industrial edge**, and (c) **workarounds** such as DIY deck kits under the owner exemption. The top of the list is Niche 3D-Printed Products for Automation Pros (#1) and 3D-Printed Fixtures, Jigs & Spare Parts for Local Plants (#2). Both lean on Founder A's audience and plant network, cost under $10k, and can start this month. For a truly hands-on joint venture, **Tempo Shelter Install, Removal & Storage (#5) is the standout quick win**: fines and fixed municipal dates create guaranteed demand in a few weeks each fall and spring. The partner's portfolio is an instant customer list, and it naturally grows into the **Four-Season Route** membership (#6). The Herschel Shapiro site is a sculptor's portfolio of organic forms. It points to a high-margin, design-led use of 3D printing (#11) rather than commodity printing, but that depends on design talent more than engineering. Distribution: 6 Tier A, 22 Tier B, 2 Tier C.",
+   "top": "### 1. Niche 3D-Printed Products for Automation Pros — 83.0\n**Why it stands out:** Print farms work when the niche is specific; one 40-printer farm reports ~$30k/month after tariffs pushed demand local. Founder fit: A built-in 200k-person audience that trusts Founder A: rare, cheap distribution.\n**Validate first:** Design 3 products, post them to the audience, and take pre-orders before buying more printers.\n\n### 2. 3D-Printed Fixtures, Jigs & Spare Parts for Local Plants — 80.0\n**Why it stands out:** Cheap industrial-grade printers (carbon-fiber nylon, etc.) plus reshoring and tariff pressure to source locally. Founder fit: Founder A knows plant maintenance pain intimately and has the industrial network; printers fit the budget.\n**Validate first:** Offer 3 Joltek or podcast contacts free printed fixtures for their worst maintenance headache.\n\n### 3. Holiday & Permanent Lighting Installation — 78.0\n**Why it stands out:** One listed operator showed $71k net profit in 2025; reported margins are 25–45%; permanent RGB track systems are a fast-growing upsell. Founder fit: Founder A's electrical background for design and controllers; the same customers and crew as the Tempo route.\n**Validate first:** Pre-sell 10 installs this November via neighborhood groups and the partner's buildings.\n\n### 4. 3D-Printed Replacement Parts & Repair Service — 78.0\n**Why it stands out:** Whirlpool and others are piloting on-demand printed spares; right-to-repair sentiment is growing. Founder fit: The partner's 400 doors generate a steady stream of broken parts; Founder A designs them.\n**Validate first:** Collect 20 broken parts from the partner's maintenance team and price the time to reproduce each.\n\n### 5. Tempo Shelter Install, Removal & Storage — 76.0\n**Why it stands out:** Strict 2026 municipal dates and fines create deadline-driven demand; an aging population can't do it themselves. Founder fit: The partner's 400 doors and owner network are an instant customer list; Founder A handles routing and booking systems.\n**Validate first:** Post an offer in 3 local Facebook groups plus the partner's owner list for this fall's window; aim for 20 bookings.",
+   "themes": "| Category | Idea | Why |\n|---|---|---|\n| Best quick win | Holiday & Permanent Lighting Installation (IG-20261027-02-03) | Season starts in weeks; a proven listing shows ~$71k net; startup cost is a few thousand dollars. |\n| Best real-estate synergy | Tempo Shelter Install, Removal & Storage (IG-20261027-02-05) | Fixed legal deadlines, no licence identified, and the partner's portfolio is the first customer list. |\n| Best big bet | Four-Season Home Services Route (Bundle) (IG-20261027-02-06) | Turns seasonal chores into recurring memberships. |\n| Best wildcard | Organic-Form 3D-Printed Design Objects & Sculpture (IG-20261027-02-11) | A high-margin, design-led use of 3D printing. |\n| Best Joltek synergy | 3D-Printed Fixtures, Jigs & Spare Parts for Local Plants (IG-20261027-02-02) | Plant maintenance pain plus Founder A's network; local and fast. |\n\n**Themes:**\n1. **Quebec licensing decides the game.** RBQ (construction), BSP (security systems) and CMEQ (electrical) rule out or slow many trades. Favor unlicensed services, licensed partners, or DIY-kit workarounds, and verify every idea with the regulator before selling.\n2. **Deadline-driven seasonal services.** Tempo dates, winter-tire law and July 1 moving day create guaranteed, concentrated demand. Bundling them evens out the seasons.\n3. **3D printing pays when it's niche.** Commodity prints are a race to the bottom; industrial fixtures, an audience-specific product line, or design-led art carry margin.\n4. **Buy-Canadian and tariffs** open doors for local making, but picking the right product matters more than the equipment.\n5. **Equipment-heavy plays (powder coating, CNC, tire van) break the <$10k / nights-and-weekends constraint.** Revisit them after a cash-flowing first venture.",
+   "nextSteps": "- **Recommended for deep research:** IG-20261027-02-01 (Niche 3D-Printed Products for Automation Pros), IG-20261027-02-02 (3D-Printed Fixtures, Jigs & Spare Parts for Local Plants), IG-20261027-02-03 (Holiday & Permanent Lighting Installation), IG-20261027-02-05 (Tempo Shelter Install, Removal & Storage)\n- **Questions for the user:**\n  1. Is this a joint venture with the partner (favor the seasonal services) or a solo side business (favor the 3D-printing and industrial ideas)?\n  2. Do either of you have a garage or workshop space? That changes the scores for the making ideas.\n  3. For importing: any product categories you already have a feel for, or supplier contacts?"
+  },
   {
    "runId": "IG-20261027-01",
    "runDate": "2026-10-27",
@@ -229,6 +240,51 @@ window.IDEAS_DATA = {
    "status": "Exploring"
   },
   {
+   "id": "IG-20261027-02-01",
+   "rank": 1.0,
+   "name": "Niche 3D-Printed Products for Automation Pros",
+   "model": "E-commerce (print farm)",
+   "scores": {
+    "C1": 4.0,
+    "C2": 5.0,
+    "C3": 4.0,
+    "C4": 5.0,
+    "C5": 4.0,
+    "C6": 4.0,
+    "C7": 3.0,
+    "C8": 3.0
+   },
+   "score": 83.0,
+   "tier": "A",
+   "confidence": "Medium",
+   "oneLiner": "A small print farm making niche products for the automation crowd: DIN-rail accessories, panel organizers, training-kit enclosures, cable management, sold to Founder A's audience.",
+   "category": "Local manufacturing",
+   "categoryModel": "Local manufacturing / e-commerce / E-commerce (print farm)",
+   "customer": "Controls engineers, electricians, panel builders, hobbyists",
+   "problem": "Small useful items for panel shops aren't stocked anywhere or cost too much from distributors.",
+   "whyNow": "Print farms work when the niche is specific; one 40-printer farm reports ~$30k/month after tariffs pushed demand local.",
+   "signalLinks": [
+    {
+     "label": "SimplyPrint — How to start a 3D print farm",
+     "url": "https://simplyprint.io/articles/how-to-start-a-3d-print-farm.md"
+    },
+    {
+     "label": "TechNode — 40 3D printers generating ~$30k/month under tariffs",
+     "url": "https://technode.global/?p=99552"
+    }
+   ],
+   "signals": "[SimplyPrint — How to start a 3D print farm](https://simplyprint.io/articles/how-to-start-a-3d-print-farm.md); [TechNode — 40 3D printers generating ~$30k/month under tariffs](https://technode.global/?p=99552)",
+   "founderFit": "A built-in 200k-person audience that trusts Founder A: rare, cheap distribution.",
+   "keyRisk": "Low-cost items need volume; copycats on Etsy/Amazon.",
+   "firstStep": "Design 3 products, post them to the audience, and take pre-orders before buying more printers.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
    "id": "IG-20261027-01-05",
    "rank": 5.0,
    "name": "Leak & Freeze Sensor Monitoring for Rentals",
@@ -270,6 +326,51 @@ window.IDEAS_DATA = {
    "runDate": "2026-10-27",
    "focus": "Real Estate x Ops-Tech",
    "sourceFile": "02. Ideas/01. Initial/IG-20261027-01 - Idea List - Real Estate x Ops-Tech.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-02",
+   "rank": 2.0,
+   "name": "3D-Printed Fixtures, Jigs & Spare Parts for Local Plants",
+   "model": "B2B job shop",
+   "scores": {
+    "C1": 4.0,
+    "C2": 5.0,
+    "C3": 4.0,
+    "C4": 4.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 4.0,
+    "C8": 3.0
+   },
+   "score": 80.0,
+   "tier": "A",
+   "confidence": "Medium",
+   "oneLiner": "Fast-turn 3D-printed (and later CNC) fixtures, jigs, guards, sensor brackets and obsolete plastic parts for plant maintenance teams.",
+   "category": "Local manufacturing",
+   "categoryModel": "Local manufacturing / B2B job shop",
+   "customer": "Small and mid manufacturers near Montreal",
+   "problem": "Plants wait weeks for machined parts or obsolete OEM components; maintenance teams lack design capacity.",
+   "whyNow": "Cheap industrial-grade printers (carbon-fiber nylon, etc.) plus reshoring and tariff pressure to source locally.",
+   "signalLinks": [
+    {
+     "label": "3D Printing Industry — Whirlpool + Spare Parts 3D",
+     "url": "https://3dprintingindustry.com/news/whirlpool-to-introduce-3d-printing-to-appliance-aftersales-with-spare-parts-3d-143574/"
+    },
+    {
+     "label": "BNN Bloomberg — Canadian maker sees local demand amid tariffs, Sep 2026",
+     "url": "https://www.bnnbloomberg.ca/tariffs/2026/09/03/canadian-paper-cup-and-bowl-maker-sees-growing-local-demand-amid-tariffs/"
+    }
+   ],
+   "signals": "[3D Printing Industry — Whirlpool + Spare Parts 3D](https://3dprintingindustry.com/news/whirlpool-to-introduce-3d-printing-to-appliance-aftersales-with-spare-parts-3d-143574/); [BNN Bloomberg — Canadian maker sees local demand amid tariffs, Sep 2026](https://www.bnnbloomberg.ca/tariffs/2026/09/03/canadian-paper-cup-and-bowl-maker-sees-growing-local-demand-amid-tariffs/)",
+   "founderFit": "Founder A knows plant maintenance pain intimately and has the industrial network; printers fit the budget.",
+   "keyRisk": "Needs CAD capacity and part-qualification know-how; liability for safety-critical parts.",
+   "firstStep": "Offer 3 Joltek or podcast contacts free printed fixtures for their worst maintenance headache.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
    "stage": "Initial",
    "status": "Exploring"
   },
@@ -360,6 +461,96 @@ window.IDEAS_DATA = {
    "status": "Exploring"
   },
   {
+   "id": "IG-20261027-02-03",
+   "rank": 3.0,
+   "name": "Holiday & Permanent Lighting Installation",
+   "model": "Seasonal service + product",
+   "scores": {
+    "C1": 4.0,
+    "C2": 4.0,
+    "C3": 4.0,
+    "C4": 4.0,
+    "C5": 5.0,
+    "C6": 3.0,
+    "C7": 4.0,
+    "C8": 2.0
+   },
+   "score": 78.0,
+   "tier": "A",
+   "confidence": "Medium",
+   "oneLiner": "Design, install, take down and store holiday lights in Nov–Jan, plus upsell year-round permanent LED track lighting.",
+   "category": "Seasonal home services",
+   "categoryModel": "Seasonal home services / Seasonal service + product",
+   "customer": "Homeowners, plex owners, small commercial",
+   "problem": "Homeowners hate ladder work in the cold; businesses want a festive storefront without the hassle.",
+   "whyNow": "One listed operator showed $71k net profit in 2025; reported margins are 25–45%; permanent RGB track systems are a fast-growing upsell.",
+   "signalLinks": [
+    {
+     "label": "Jobber — How to bid Christmas light installation",
+     "url": "https://getjobber.com/academy/holiday-lighting/how-to-bid-christmas-light-installation/"
+    },
+    {
+     "label": "BizQuest — Christmas light business listing ($71k net 2025)",
+     "url": "https://www.bizquest.com/business-for-sale/profitable-christmas-lights-install-and-tear-down-business/BW2493294/"
+    }
+   ],
+   "signals": "[Jobber — How to bid Christmas light installation](https://getjobber.com/academy/holiday-lighting/how-to-bid-christmas-light-installation/); [BizQuest — Christmas light business listing ($71k net 2025)](https://www.bizquest.com/business-for-sale/profitable-christmas-lights-install-and-tear-down-business/BW2493294/)",
+   "founderFit": "Founder A's electrical background for design and controllers; the same customers and crew as the Tempo route.",
+   "keyRisk": "Seasonal; hardwired permanent lights need a licensed electrician (CMEQ) in Quebec, so plug-in systems only unless you partner.",
+   "firstStep": "Pre-sell 10 installs this November via neighborhood groups and the partner's buildings.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-04",
+   "rank": 4.0,
+   "name": "3D-Printed Replacement Parts & Repair Service",
+   "model": "Service + e-commerce",
+   "scores": {
+    "C1": 3.0,
+    "C2": 5.0,
+    "C3": 3.0,
+    "C4": 5.0,
+    "C5": 4.0,
+    "C6": 4.0,
+    "C7": 4.0,
+    "C8": 3.0
+   },
+   "score": 78.0,
+   "tier": "A",
+   "confidence": "Medium",
+   "oneLiner": "Measure, model and print discontinued plastic parts (appliance knobs, blind parts, clips, vent covers) locally and sell popular ones online.",
+   "category": "Local making",
+   "categoryModel": "Local making / Service + e-commerce",
+   "customer": "Homeowners, landlords, appliance repair shops",
+   "problem": "Fully working appliances and fixtures get thrown away for a $2 broken plastic part that's no longer made.",
+   "whyNow": "Whirlpool and others are piloting on-demand printed spares; right-to-repair sentiment is growing.",
+   "signalLinks": [
+    {
+     "label": "3D Printing Industry — Whirlpool + Spare Parts 3D",
+     "url": "https://3dprintingindustry.com/news/whirlpool-to-introduce-3d-printing-to-appliance-aftersales-with-spare-parts-3d-143574/"
+    },
+    {
+     "label": "UK Gov — Legal issues of 3D-printed appliance spare parts",
+     "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/923615/3D-printing-spare-parts-consumer-appliances.pdf"
+    }
+   ],
+   "signals": "[3D Printing Industry — Whirlpool + Spare Parts 3D](https://3dprintingindustry.com/news/whirlpool-to-introduce-3d-printing-to-appliance-aftersales-with-spare-parts-3d-143574/); [UK Gov — Legal issues of 3D-printed appliance spare parts](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/923615/3D-printing-spare-parts-consumer-appliances.pdf)",
+   "founderFit": "The partner's 400 doors generate a steady stream of broken parts; Founder A designs them.",
+   "keyRisk": "Each part is custom (time-intensive); liability for parts in heat or safety roles.",
+   "firstStep": "Collect 20 broken parts from the partner's maintenance team and price the time to reproduce each.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
    "id": "IG-20261027-01-08",
    "rank": 8.0,
    "name": "Fractional Operations Lead for PM Firms",
@@ -397,6 +588,51 @@ window.IDEAS_DATA = {
    "runDate": "2026-10-27",
    "focus": "Real Estate x Ops-Tech",
    "sourceFile": "02. Ideas/01. Initial/IG-20261027-01 - Idea List - Real Estate x Ops-Tech.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-05",
+   "rank": 5.0,
+   "name": "Tempo Shelter Install, Removal & Storage",
+   "model": "Seasonal service",
+   "scores": {
+    "C1": 4.0,
+    "C2": 4.0,
+    "C3": 3.0,
+    "C4": 5.0,
+    "C5": 5.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 76.0,
+   "tier": "A",
+   "confidence": "Medium",
+   "oneLiner": "Book-ahead installation every fall and removal every spring of Tempo-style car and entrance shelters, with optional off-season storage and repair.",
+   "category": "Seasonal home services",
+   "categoryModel": "Seasonal home services / Seasonal service",
+   "customer": "Homeowners and plex owners in Montreal/Laval",
+   "problem": "Installing a Tempo is a miserable two-person job; bylaws set strict dates with $250–1,000 fines, so everyone needs it done in the same 2–3 week window.",
+   "whyNow": "Strict 2026 municipal dates and fines create deadline-driven demand; an aging population can't do it themselves.",
+   "signalLinks": [
+    {
+     "label": "Narcity — Tempo shelter dates & fines, Oct 2026",
+     "url": "https://www.narcity.com/fr/abri-tempo-quebec-date-amendes-octobre-2026"
+    },
+    {
+     "label": "Ville de Montréal — Installing a temporary car shelter",
+     "url": "https://montreal.ca/demarches/installer-un-abri-temporaire-pour-automobile"
+    }
+   ],
+   "signals": "[Narcity — Tempo shelter dates & fines, Oct 2026](https://www.narcity.com/fr/abri-tempo-quebec-date-amendes-octobre-2026); [Ville de Montréal — Installing a temporary car shelter](https://montreal.ca/demarches/installer-un-abri-temporaire-pour-automobile)",
+   "founderFit": "The partner's 400 doors and owner network are an instant customer list; Founder A handles routing and booking systems.",
+   "keyRisk": "Very short seasons (Oct–Nov, Apr) and physical labor; confirm with the RBQ that temporary shelters fall outside licensed construction work.",
+   "firstStep": "Post an offer in 3 local Facebook groups plus the partner's owner list for this fall's window; aim for 20 bookings.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
    "stage": "Initial",
    "status": "Exploring"
   },
@@ -442,6 +678,123 @@ window.IDEAS_DATA = {
    "runDate": "2026-10-27",
    "focus": "Real Estate x Ops-Tech",
    "sourceFile": "02. Ideas/01. Initial/IG-20261027-01 - Idea List - Real Estate x Ops-Tech.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-06",
+   "rank": 6.0,
+   "name": "Four-Season Home Services Route (Bundle)",
+   "model": "Membership / route",
+   "scores": {
+    "C1": 4.0,
+    "C2": 4.0,
+    "C3": 4.0,
+    "C4": 4.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 3.0
+   },
+   "score": 75.0,
+   "tier": "A",
+   "confidence": "Low",
+   "oneLiner": "One annual membership covering the seasonal chores Quebec homes need: Tempo on/off, window AC in/out, holiday lights, gutter cleaning and exterior faucet winterizing.",
+   "category": "Seasonal home services",
+   "categoryModel": "Seasonal home services / Membership / route",
+   "customer": "Homeowners and plex owners",
+   "problem": "Each seasonal chore means finding a different person every season; the work is unreliable and scattered.",
+   "whyNow": "Packaging the seasonal services (ideas #1, #2, #10) as one membership levels out the seasonality and creates recurring revenue.",
+   "signalLinks": [
+    {
+     "label": "Narcity — Tempo shelter dates & fines, Oct 2026",
+     "url": "https://www.narcity.com/fr/abri-tempo-quebec-date-amendes-octobre-2026"
+    },
+    {
+     "label": "Jobber — How to bid Christmas light installation",
+     "url": "https://getjobber.com/academy/holiday-lighting/how-to-bid-christmas-light-installation/"
+    }
+   ],
+   "signals": "[Narcity — Tempo shelter dates & fines, Oct 2026](https://www.narcity.com/fr/abri-tempo-quebec-date-amendes-octobre-2026); [Jobber — How to bid Christmas light installation](https://getjobber.com/academy/holiday-lighting/how-to-bid-christmas-light-installation/)",
+   "founderFit": "The partner's portfolio as an anchor; Founder A's systems for scheduling and route optimization.",
+   "keyRisk": "Execution complexity and labor; needs each service proven first.",
+   "firstStep": "Survey 30 homeowners on which 3 chores they'd pay a yearly fee for.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-07",
+   "rank": 7.0,
+   "name": "Window AC Install/Removal & Storage",
+   "model": "Seasonal service",
+   "scores": {
+    "C1": 3.0,
+    "C2": 4.0,
+    "C3": 3.0,
+    "C4": 5.0,
+    "C5": 5.0,
+    "C6": 4.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 74.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "A spring install and fall removal of window and portable AC units, with summer-to-winter storage, using the same crew and calendar as the Tempo service.",
+   "category": "Seasonal home services",
+   "categoryModel": "Seasonal home services / Seasonal service",
+   "customer": "Plex tenants and owners, seniors",
+   "problem": "Window ACs are heavy and dangerous to install on upper floors; tenants and seniors struggle.",
+   "whyNow": "Hotter Montreal summers are increasing AC adoption; the work fills the Tempo off-season.",
+   "signalLinks": [],
+   "signals": "No external source yet (founder observation / general knowledge)",
+   "founderFit": "The partner's tenants are direct customers; it shares logistics with idea #1.",
+   "keyRisk": "Liability for falls or damage; low price per job.",
+   "firstStep": "Offer it to the partner's tenants next May at a flat price and count sign-ups.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-08",
+   "rank": 8.0,
+   "name": "Smart-Home & Home Network Setup (Non-Alarm Scope)",
+   "model": "Service",
+   "scores": {
+    "C1": 3.0,
+    "C2": 5.0,
+    "C3": 3.0,
+    "C4": 5.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 73.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Set up Wi-Fi mesh, smart thermostats, smart locks, Home Assistant hubs and device integrations, avoiding regulated alarm and monitoring work.",
+   "category": "Installation services",
+   "categoryModel": "Installation services / Service",
+   "customer": "Homeowners, seniors, remote workers",
+   "problem": "People buy smart devices that never get set up properly; Wi-Fi dead zones frustrate remote workers.",
+   "whyNow": "Smart-home adoption keeps growing; big-box install services are limited and generic.",
+   "signalLinks": [],
+   "signals": "No external source yet (founder observation / general knowledge)",
+   "founderFit": "Squarely Founder A's skill set; low equipment cost.",
+   "keyRisk": "Low ticket size; the line between this and regulated security work must be checked (BSP).",
+   "firstStep": "Offer 5 discounted setups to friends-of-friends and gather testimonials.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
    "stage": "Initial",
    "status": "Exploring"
   },
@@ -581,6 +934,133 @@ window.IDEAS_DATA = {
    "status": "Exploring"
   },
   {
+   "id": "IG-20261027-02-09",
+   "rank": 9.0,
+   "name": "Security Camera Installs for Plexes & Small Businesses",
+   "model": "Service + recurring support",
+   "scores": {
+    "C1": 4.0,
+    "C2": 4.0,
+    "C3": 4.0,
+    "C4": 3.0,
+    "C5": 3.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 3.0
+   },
+   "score": 70.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "Design and install camera systems (and smart-home security) for multi-unit rentals and small businesses, with a maintenance plan.",
+   "category": "Installation services",
+   "categoryModel": "Installation services / Service + recurring support",
+   "customer": "Plex owners, PMs, small shops",
+   "problem": "Landlords deal with package theft, vandalism and dumping; DIY systems are unreliable.",
+   "whyNow": "Cheap PoE/NVR systems plus rising property-crime concern; the partner's portfolio is a ready pipeline.",
+   "signalLinks": [
+    {
+     "label": "Soumission Rénovation — Alarm/camera installation in Quebec (BSP permits)",
+     "url": "https://soumissionrenovation.ca/fr/blogue/guide-de-linstallation-de-systeme-dalarme-au-quebec-residentiel-connecte-et-commercial"
+    }
+   ],
+   "signals": "[Soumission Rénovation — Alarm/camera installation in Quebec (BSP permits)](https://soumissionrenovation.ca/fr/blogue/guide-de-linstallation-de-systeme-dalarme-au-quebec-residentiel-connecte-et-commercial)",
+   "founderFit": "Founder A's networking and IoT skills; the partner brings landlords.",
+   "keyRisk": "Quebec requires BSP permits for companies installing cameras and alarms (and possibly RBQ/CMEQ for wiring); licensing time and cost.",
+   "firstStep": "Get the BSP permit requirements and costs in writing, then price 3 installs in partner buildings.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-10",
+   "rank": 10.0,
+   "name": "Auction Equipment Flip (Test, Refurbish, Resell)",
+   "model": "Trading",
+   "scores": {
+    "C1": 3.0,
+    "C2": 5.0,
+    "C3": 4.0,
+    "C4": 3.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 70.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "Buy undervalued industrial equipment (drives, PLC racks, small machines) at liquidation auctions, then test, refurbish and resell it with a warranty.",
+   "category": "Industrial trading",
+   "categoryModel": "Industrial trading / Trading",
+   "customer": "Small manufacturers and shops buying used equipment",
+   "problem": "Auction buyers can't verify condition; good equipment sells cheap while refurbished units command premiums.",
+   "whyNow": "Plant closures and consolidation feed a steady flow of liquidation auctions online.",
+   "signalLinks": [
+    {
+     "label": "The Fabricator — Precision machinery online auction",
+     "url": "https://www.thefabricator.com/thefabricator/news/shopmanagement/s-s-precision-machinery-equipment-to-be-sold-in-online-auction-oct-10-17"
+    },
+    {
+     "label": "Surplus Record — used industrial equipment listings",
+     "url": "https://www.surplusrecord.com/"
+    }
+   ],
+   "signals": "[The Fabricator — Precision machinery online auction](https://www.thefabricator.com/thefabricator/news/shopmanagement/s-s-precision-machinery-equipment-to-be-sold-in-online-auction-oct-10-17); [Surplus Record — used industrial equipment listings](https://www.surplusrecord.com/)",
+   "founderFit": "Founder A can assess and test equipment better than almost any buyer; the audience is a resale channel.",
+   "keyRisk": "Capital tied up in inventory; storage space; transport costs.",
+   "firstStep": "Watch 5 auctions, log hammer prices against resale listings, and calculate margins before buying anything.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-11",
+   "rank": 11.0,
+   "name": "Organic-Form 3D-Printed Design Objects & Sculpture",
+   "model": "Direct-to-consumer brand",
+   "scores": {
+    "C1": 3.0,
+    "C2": 3.0,
+    "C3": 4.0,
+    "C4": 5.0,
+    "C5": 3.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 4.0
+   },
+   "score": 70.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "A design brand of large-format, organic-form 3D-printed sculptures, lamps and planters, inspired by work like Herschel Shapiro's, sold via Instagram, Etsy and local galleries.",
+   "category": "Design",
+   "categoryModel": "Design / art / Direct-to-consumer brand",
+   "customer": "Design-conscious buyers, interior designers, galleries",
+   "problem": "Mass-produced decor is generic; buyers pay for distinctive, artist-made objects.",
+   "whyNow": "Large-format printers and new materials make sculptural pieces feasible at small scale; social media rewards striking visual work.",
+   "signalLinks": [
+    {
+     "label": "Herschel Shapiro — sculpture portfolio (organic forms)",
+     "url": "https://herschelshapiro.com/"
+    }
+   ],
+   "signals": "[Herschel Shapiro — sculpture portfolio (organic forms)](https://herschelshapiro.com/)",
+   "founderFit": "Founder A can run the production; it needs a strong design and art direction partner.",
+   "keyRisk": "Taste-driven and hard to predict; needs real design talent and marketing.",
+   "firstStep": "Make 5 pieces, photograph them, and test them on Instagram plus one local market or gallery.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
    "id": "IG-20261027-01-13",
    "rank": 13.0,
    "name": "Used & Obsolete Automation Parts Reseller",
@@ -658,6 +1138,42 @@ window.IDEAS_DATA = {
    "runDate": "2026-10-27",
    "focus": "Real Estate x Ops-Tech",
    "sourceFile": "02. Ideas/01. Initial/IG-20261027-01 - Idea List - Real Estate x Ops-Tech.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-12",
+   "rank": 12.0,
+   "name": "Pre-Configured Smart-Home & IoT Kits",
+   "model": "Products",
+   "scores": {
+    "C1": 3.0,
+    "C2": 5.0,
+    "C3": 3.0,
+    "C4": 4.0,
+    "C5": 3.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 3.0
+   },
+   "score": 69.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Sell ready-to-run kits (a Home Assistant hub plus sensors, leak/freeze monitoring, energy monitoring) pre-configured, with setup guides.",
+   "category": "Electronics",
+   "categoryModel": "Electronics / e-commerce / Products",
+   "customer": "Tech-savvy homeowners, landlords",
+   "problem": "DIY smart-home setups are fiddly; people want them to just work.",
+   "whyNow": "Matter/Thread standards make multi-brand kits easier; there's an interest in local, cloud-free control.",
+   "signalLinks": [],
+   "signals": "No external source yet (founder observation / general knowledge)",
+   "founderFit": "Founder A's IoT and controls expertise plus the audience.",
+   "keyRisk": "Support burden; small margins on hardware; certification for any custom electronics.",
+   "firstStep": "Bundle one leak-monitoring kit and sell 10 to the audience.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
    "stage": "Initial",
    "status": "Exploring"
   },
@@ -784,6 +1300,133 @@ window.IDEAS_DATA = {
    "status": "Exploring"
   },
   {
+   "id": "IG-20261027-02-13",
+   "rank": 13.0,
+   "name": "Private-Label Industrial Accessories Import",
+   "model": "Import + e-commerce",
+   "scores": {
+    "C1": 4.0,
+    "C2": 5.0,
+    "C3": 3.0,
+    "C4": 3.0,
+    "C5": 3.0,
+    "C6": 2.0,
+    "C7": 3.0,
+    "C8": 3.0
+   },
+   "score": 68.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "Private-label commodity automation accessories (enclosures, terminal blocks, cable glands, labeling, test leads) imported and sold to the audience and local shops.",
+   "category": "Import",
+   "categoryModel": "Import / B2B e-commerce / Import + e-commerce",
+   "customer": "Panel builders, integrators, maintenance techs",
+   "problem": "Distributor prices for commodity accessories are high; small shops lack buying power.",
+   "whyNow": "Tariffs and supply shifts reshuffle sourcing; buyers are open to new brands with good value.",
+   "signalLinks": [
+    {
+     "label": "Fit Small Business — Profitable items to import from China 2026",
+     "url": "https://fitsmallbusiness.com/profitable-items-to-import-from-china/"
+    },
+    {
+     "label": "BDC — Launching foreign products in Canada",
+     "url": "https://www.bdc.ca/en/articles-tools/marketing-sales-export/marketing/launching-foreign-products-canada"
+    }
+   ],
+   "signals": "[Fit Small Business — Profitable items to import from China 2026](https://fitsmallbusiness.com/profitable-items-to-import-from-china/); [BDC — Launching foreign products in Canada](https://www.bdc.ca/en/articles-tools/marketing-sales-export/marketing/launching-foreign-products-canada)",
+   "founderFit": "The audience is a direct channel; Founder A knows exactly what panel builders use.",
+   "keyRisk": "Certification (CSA/UL) for electrical items is a big hurdle; inventory risk; low margins against distributors.",
+   "firstStep": "Poll the audience on 10 accessory items and their current prices; pick the top 3.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-14",
+   "rank": 14.0,
+   "name": "Prototyping & Small-Batch Production for Inventors",
+   "model": "Service",
+   "scores": {
+    "C1": 3.0,
+    "C2": 5.0,
+    "C3": 3.0,
+    "C4": 4.0,
+    "C5": 3.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 68.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Help inventors go from idea to working prototype and the first 100 units using 3D printing, sourced parts and contract shops.",
+   "category": "Local manufacturing",
+   "categoryModel": "Local manufacturing / Service",
+   "customer": "Inventors, startups, makers",
+   "problem": "Inventors don't know how to prototype or find manufacturers; agencies are expensive.",
+   "whyNow": "Cheap printing plus a reshoring interest in making things locally.",
+   "signalLinks": [
+    {
+     "label": "CP24 — Buy-Canadian resurgence amid trade war, Aug 2026",
+     "url": "https://www.cp24.com/local/toronto/2026/08/27/are-you-buying-local-country-may-soon-see-resurgence-of-buy-canadian-campaign-amid-ongoing-trade-war/"
+    }
+   ],
+   "signals": "[CP24 — Buy-Canadian resurgence amid trade war, Aug 2026](https://www.cp24.com/local/toronto/2026/08/27/are-you-buying-local-country-may-soon-see-resurgence-of-buy-canadian-campaign-amid-ongoing-trade-war/)",
+   "founderFit": "Founder A's product and manufacturing experience.",
+   "keyRisk": "Inventors are cash-poor; long projects; scope creep.",
+   "firstStep": "Offer free 30-minute consults at a local makerspace or incubator and track how many convert.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-15",
+   "rank": 15.0,
+   "name": "DIY Deck & Pergola Kits + Design Service",
+   "model": "Products + design service",
+   "scores": {
+    "C1": 3.0,
+    "C2": 4.0,
+    "C3": 3.0,
+    "C4": 4.0,
+    "C5": 3.0,
+    "C6": 4.0,
+    "C7": 3.0,
+    "C8": 3.0
+   },
+   "score": 68.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Sell pre-designed, pre-cut deck and pergola kits plus custom plans; homeowners build them themselves, which the RBQ owner exemption covers.",
+   "category": "Design",
+   "categoryModel": "Design / e-commerce / Products + design service",
+   "customer": "DIY homeowners",
+   "problem": "DIYers struggle with design, permits and cut lists; contractors are expensive and booked up.",
+   "whyNow": "The RBQ exempts owners doing their own work under $20k per project, so the kit model sidesteps contractor licensing.",
+   "signalLinks": [
+    {
+     "label": "RBQ — Citizen FAQ (owner exemption < $20k/project)",
+     "url": "https://www.rbq.gouv.qc.ca/foire-aux-questions-faq/citoyen/general-pour-le-citoyen/"
+    }
+   ],
+   "signals": "[RBQ — Citizen FAQ (owner exemption < $20k/project)](https://www.rbq.gouv.qc.ca/foire-aux-questions-faq/citoyen/general-pour-le-citoyen/)",
+   "founderFit": "Founder A's engineering design and CAD skills; the partner's real-estate network.",
+   "keyRisk": "Lumber logistics; structural liability (stamped plans may need an engineer); seasonal.",
+   "firstStep": "Sell 3 custom deck plans to homeowners via local groups before stocking any kits.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
    "id": "IG-20261027-01-18",
    "rank": 18.0,
    "name": "Move-In/Move-Out Inspection with AI Photo Comparison",
@@ -857,6 +1500,51 @@ window.IDEAS_DATA = {
    "runDate": "2026-10-27",
    "focus": "Real Estate x Ops-Tech",
    "sourceFile": "02. Ideas/01. Initial/IG-20261027-01 - Idea List - Real Estate x Ops-Tech.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-16",
+   "rank": 16.0,
+   "name": "Powder Coating Micro-Shop (Used Equipment)",
+   "model": "Job shop",
+   "scores": {
+    "C1": 4.0,
+    "C2": 4.0,
+    "C3": 4.0,
+    "C4": 2.0,
+    "C5": 3.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 3.0
+   },
+   "score": 67.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Buy a used powder coating booth and oven at auction and run a small local coating job shop.",
+   "category": "Local manufacturing",
+   "categoryModel": "Local manufacturing / Job shop",
+   "customer": "Auto enthusiasts, fabricators, furniture and railing makers",
+   "problem": "Local coaters are backed up and often won't take small jobs; hobbyists and small fabricators can't get service.",
+   "whyNow": "Auctions regularly list complete coating lines cheaply; local sourcing demand is up with tariffs.",
+   "signalLinks": [
+    {
+     "label": "The Fabricator — Precision machinery online auction",
+     "url": "https://www.thefabricator.com/thefabricator/news/shopmanagement/s-s-precision-machinery-equipment-to-be-sold-in-online-auction-oct-10-17"
+    },
+    {
+     "label": "CP24 — Buy-Canadian resurgence amid trade war, Aug 2026",
+     "url": "https://www.cp24.com/local/toronto/2026/08/27/are-you-buying-local-country-may-soon-see-resurgence-of-buy-canadian-campaign-amid-ongoing-trade-war/"
+    }
+   ],
+   "signals": "[The Fabricator — Precision machinery online auction](https://www.thefabricator.com/thefabricator/news/shopmanagement/s-s-precision-machinery-equipment-to-be-sold-in-online-auction-oct-10-17); [CP24 — Buy-Canadian resurgence amid trade war, Aug 2026](https://www.cp24.com/local/toronto/2026/08/27/are-you-buying-local-country-may-soon-see-resurgence-of-buy-canadian-campaign-amid-ongoing-trade-war/)",
+   "founderFit": "Founder A's process and equipment knowledge.",
+   "keyRisk": "Needs industrial space, a 220V/gas supply and environmental compliance; capital likely above $10k; not compatible with nights and weekends.",
+   "firstStep": "Price equipment plus space; interview 5 local fabricators about their coating wait times.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
    "stage": "Initial",
    "status": "Exploring"
   },
@@ -947,6 +1635,205 @@ window.IDEAS_DATA = {
    "status": "Exploring"
   },
   {
+   "id": "IG-20261027-02-17",
+   "rank": 17.0,
+   "name": "EV Charger Install Coordination",
+   "model": "Service (with licensed partner)",
+   "scores": {
+    "C1": 4.0,
+    "C2": 3.0,
+    "C3": 3.0,
+    "C4": 3.0,
+    "C5": 3.0,
+    "C6": 3.0,
+    "C7": 4.0,
+    "C8": 2.0
+   },
+   "score": 65.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "A turnkey EV-charger service: site assessment, rebate paperwork and scheduling with a licensed master electrician who does the wiring.",
+   "category": "Energy",
+   "categoryModel": "Energy / installation / Service (with licensed partner)",
+   "customer": "Homeowners and plex owners",
+   "problem": "Buyers are confused by panels, rebates and contractors; electricians don't want the paperwork.",
+   "whyNow": "EV adoption plus Quebec and federal rebates.",
+   "signalLinks": [],
+   "signals": "No external source yet (founder observation / general knowledge)",
+   "founderFit": "Founder A's EE background for assessments; the partner's owners as leads.",
+   "keyRisk": "The wiring must be done by a CMEQ-licensed electrician; margins are shared.",
+   "firstStep": "Partner with one master electrician and run 3 pilot installs.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-18",
+   "rank": 18.0,
+   "name": "Import & Sell Tempo/Winter Replacement Parts",
+   "model": "Import + e-commerce",
+   "scores": {
+    "C1": 3.0,
+    "C2": 3.0,
+    "C3": 3.0,
+    "C4": 4.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 64.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Import or source replacement Tempo covers, frames, anchors and clips and sell them online and through the install service.",
+   "category": "Import",
+   "categoryModel": "Import / e-commerce / Import + e-commerce",
+   "customer": "Quebec homeowners with car shelters",
+   "problem": "Shelter covers tear every few winters; replacement parts are hard to find in the right sizes.",
+   "whyNow": "Complements idea #1 with product margin; Quebec-specific demand is ignored by big retailers.",
+   "signalLinks": [
+    {
+     "label": "BDC — Launching foreign products in Canada",
+     "url": "https://www.bdc.ca/en/articles-tools/marketing-sales-export/marketing/launching-foreign-products-canada"
+    }
+   ],
+   "signals": "[BDC — Launching foreign products in Canada](https://www.bdc.ca/en/articles-tools/marketing-sales-export/marketing/launching-foreign-products-canada)",
+   "founderFit": "Synergy with the Tempo service; Founder A handles e-commerce.",
+   "keyRisk": "Inventory and freight; seasonal; incumbents (shelter makers) sell parts too.",
+   "firstStep": "List 5 popular replacement covers sourced from a supplier and drop-ship-test them this fall.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-19",
+   "rank": 19.0,
+   "name": "Epoxy / Polyaspartic Garage Floor Coatings",
+   "model": "Service",
+   "scores": {
+    "C1": 3.0,
+    "C2": 3.0,
+    "C3": 4.0,
+    "C4": 3.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 64.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Grind and coat garage and basement floors with epoxy or polyaspartic systems.",
+   "category": "Home improvement",
+   "categoryModel": "Home improvement / Service",
+   "customer": "Homeowners, small commercial",
+   "problem": "Concrete garage floors stain, dust and crack; homeowners want a finished look.",
+   "whyNow": "High-margin job (materials are a few hundred dollars on a $2–4k job); a popular upgrade.",
+   "signalLinks": [
+    {
+     "label": "ZenBusiness — Epoxy flooring business profile",
+     "url": "https://www.zenbusiness.com/start-a-business/construction/epoxy-flooring/"
+    },
+    {
+     "label": "Armor Garage — Epoxy cost per sq ft 2026",
+     "url": "https://armorgarage.com/blog/epoxy-flooring-cost-per-square-foot/"
+    }
+   ],
+   "signals": "[ZenBusiness — Epoxy flooring business profile](https://www.zenbusiness.com/start-a-business/construction/epoxy-flooring/); [Armor Garage — Epoxy cost per sq ft 2026](https://armorgarage.com/blog/epoxy-flooring-cost-per-square-foot/)",
+   "founderFit": "Moderate: Founder A has process discipline; the partner's network for leads.",
+   "keyRisk": "Likely needs an RBQ licence in Quebec; equipment ($6k+) and skill; curing needs warm weather.",
+   "firstStep": "Check RBQ licensing for floor coatings and shadow one installer for a day.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-20",
+   "rank": 20.0,
+   "name": "Exterior Pressure Washing & Cleaning",
+   "model": "Service",
+   "scores": {
+    "C1": 3.0,
+    "C2": 3.0,
+    "C3": 3.0,
+    "C4": 5.0,
+    "C5": 5.0,
+    "C6": 2.0,
+    "C7": 2.0,
+    "C8": 1.0
+   },
+   "score": 64.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Pressure washing of driveways, siding, balconies, decks and storefronts, plus seasonal gutter cleaning.",
+   "category": "Home services",
+   "categoryModel": "Home services / Service",
+   "customer": "Homeowners, plexes, storefronts",
+   "problem": "Exteriors get dirty; owners lack the equipment or time.",
+   "whyNow": "A low-cost entry with fast cash flow; plex balconies and stairs are a big niche.",
+   "signalLinks": [],
+   "signals": "No external source yet (founder observation / general knowledge)",
+   "founderFit": "Low technical fit; the partner's buildings provide volume.",
+   "keyRisk": "Highly commoditized; seasonal (May–Oct).",
+   "firstStep": "Rent a pressure washer for a weekend and clean 3 partner properties to time and price the work.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-21",
+   "rank": 21.0,
+   "name": "Garage & Shed Storage Systems Installation",
+   "model": "Service + product margin",
+   "scores": {
+    "C1": 3.0,
+    "C2": 3.0,
+    "C3": 3.0,
+    "C4": 4.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 64.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Install overhead racks, slatwall, shelving and bike and tire storage in garages and sheds, earning margin on the hardware.",
+   "category": "Home improvement",
+   "categoryModel": "Home improvement / Service + product margin",
+   "customer": "Homeowners with cluttered garages and sheds",
+   "problem": "Garages fill up with seasonal gear (tires, Tempo parts, bikes) with nowhere to put it.",
+   "whyNow": "Quebec's seasonal gear (winter tires, shelters) makes storage a real pain point; the work is quick and repeatable.",
+   "signalLinks": [
+    {
+     "label": "RBQ — Work requiring a licence",
+     "url": "https://www.rbq.gouv.qc.ca/en/licence/knowing-if-a-licence-is-required/work-requiring-a-licence/"
+    }
+   ],
+   "signals": "[RBQ — Work requiring a licence](https://www.rbq.gouv.qc.ca/en/licence/knowing-if-a-licence-is-required/work-requiring-a-licence/)",
+   "founderFit": "Practical install work; Founder A can design standard packages.",
+   "keyRisk": "Check whether RBQ licensing applies to fixed installations; competition from big-box install services.",
+   "firstStep": "Price 3 standard packages and offer them to 10 homeowners from the Tempo customer list.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
    "id": "IG-20261027-01-22",
    "rank": 22.0,
    "name": "Owner Reporting & Investor Dashboards",
@@ -984,6 +1871,240 @@ window.IDEAS_DATA = {
    "runDate": "2026-10-27",
    "focus": "Real Estate x Ops-Tech",
    "sourceFile": "02. Ideas/01. Initial/IG-20261027-01 - Idea List - Real Estate x Ops-Tech.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-22",
+   "rank": 22.0,
+   "name": "Mobile Seasonal Tire Swap",
+   "model": "Mobile service",
+   "scores": {
+    "C1": 5.0,
+    "C2": 2.0,
+    "C3": 3.0,
+    "C4": 2.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 63.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Swap winter and summer tires at the customer's home or office, with optional tire storage.",
+   "category": "Auto services",
+   "categoryModel": "Auto services / Mobile service",
+   "customer": "Car owners in Montreal/Laval (winter tires mandatory)",
+   "problem": "Quebec's mandatory winter-tire season means everyone queues at garages in the same few weeks.",
+   "whyNow": "Convenience services are booming; the legal deadline creates guaranteed twice-yearly demand.",
+   "signalLinks": [],
+   "signals": "No external source yet (founder observation / general knowledge)",
+   "founderFit": "Low technical fit; the partner's tenants are an easy first market.",
+   "keyRisk": "Van, compressor and balancer cost well over $10k; very peaky seasons.",
+   "firstStep": "Pre-sell 20 swaps for spring and only buy equipment once the sales justify it.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-23",
+   "rank": 23.0,
+   "name": "Roof Snow & Ice Removal for Plexes",
+   "model": "Seasonal service",
+   "scores": {
+    "C1": 4.0,
+    "C2": 3.0,
+    "C3": 3.0,
+    "C4": 3.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 2.0,
+    "C8": 2.0
+   },
+   "score": 63.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Roof snow and ice-dam removal for flat-roof plexes and small buildings during heavy-snow periods.",
+   "category": "Seasonal property services",
+   "categoryModel": "Seasonal property services / Seasonal service",
+   "customer": "Plex owners, PMs, flat-roof buildings",
+   "problem": "Heavy snow loads on flat roofs and balconies risk leaks and structural damage; it's hard to find people when needed.",
+   "whyNow": "Volatile winters with freeze–thaw cycles increase ice dams.",
+   "signalLinks": [],
+   "signals": "No external source yet (founder observation / general knowledge)",
+   "founderFit": "The partner's 400 doors in plex buildings are the base demand.",
+   "keyRisk": "Fall risk, so insurance is expensive; unpredictable demand.",
+   "firstStep": "Ask the partner what they paid for roof snow removal last winter and how fast it got done.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-24",
+   "rank": 24.0,
+   "name": "CNC/Laser-Cut Metal Products Shop",
+   "model": "Job shop / products",
+   "scores": {
+    "C1": 3.0,
+    "C2": 4.0,
+    "C3": 4.0,
+    "C4": 2.0,
+    "C5": 3.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 3.0
+   },
+   "score": 63.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Use a used CNC plasma or fiber laser to make custom metal signs, brackets, fire-pit rings and decorative panels.",
+   "category": "Local manufacturing",
+   "categoryModel": "Local manufacturing / Job shop / products",
+   "customer": "Homeowners, contractors, small businesses",
+   "problem": "Small custom metal jobs are poorly served and slow to get done.",
+   "whyNow": "Used and imported CNC tables are now affordable; buy-local sentiment is strong.",
+   "signalLinks": [
+    {
+     "label": "The Fabricator — Precision machinery online auction",
+     "url": "https://www.thefabricator.com/thefabricator/news/shopmanagement/s-s-precision-machinery-equipment-to-be-sold-in-online-auction-oct-10-17"
+    },
+    {
+     "label": "CP24 — Buy-Canadian resurgence amid trade war, Aug 2026",
+     "url": "https://www.cp24.com/local/toronto/2026/08/27/are-you-buying-local-country-may-soon-see-resurgence-of-buy-canadian-campaign-amid-ongoing-trade-war/"
+    }
+   ],
+   "signals": "[The Fabricator — Precision machinery online auction](https://www.thefabricator.com/thefabricator/news/shopmanagement/s-s-precision-machinery-equipment-to-be-sold-in-online-auction-oct-10-17); [CP24 — Buy-Canadian resurgence amid trade war, Aug 2026](https://www.cp24.com/local/toronto/2026/08/27/are-you-buying-local-country-may-soon-see-resurgence-of-buy-canadian-campaign-amid-ongoing-trade-war/)",
+   "founderFit": "Founder A can run and maintain CNC equipment.",
+   "keyRisk": "Space, power and safety requirements; competitive Etsy market for signs.",
+   "firstStep": "Get 10 quotes for jobs via local Facebook and marketplace ads before buying a table.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-25",
+   "rank": 25.0,
+   "name": "Buy-Canadian Small-Batch Product Brand",
+   "model": "DTC / wholesale",
+   "scores": {
+    "C1": 3.0,
+    "C2": 4.0,
+    "C3": 3.0,
+    "C4": 3.0,
+    "C5": 2.0,
+    "C6": 3.0,
+    "C7": 4.0,
+    "C8": 3.0
+   },
+   "score": 63.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Identify one everyday product now commonly imported (home, garage, outdoor) and produce it locally in small batches using contract shops or your own equipment.",
+   "category": "Local manufacturing",
+   "categoryModel": "Local manufacturing / DTC / wholesale",
+   "customer": "Canadian consumers and retailers seeking local alternatives",
+   "problem": "Canadians want to buy local, but stores are short on Canadian-made options.",
+   "whyNow": "The buy-Canadian resurgence of 2026; local makers report rising demand.",
+   "signalLinks": [
+    {
+     "label": "CP24 — Buy-Canadian resurgence amid trade war, Aug 2026",
+     "url": "https://www.cp24.com/local/toronto/2026/08/27/are-you-buying-local-country-may-soon-see-resurgence-of-buy-canadian-campaign-amid-ongoing-trade-war/"
+    },
+    {
+     "label": "BNN Bloomberg — Canadian maker sees local demand amid tariffs, Sep 2026",
+     "url": "https://www.bnnbloomberg.ca/tariffs/2026/09/03/canadian-paper-cup-and-bowl-maker-sees-growing-local-demand-amid-tariffs/"
+    }
+   ],
+   "signals": "[CP24 — Buy-Canadian resurgence amid trade war, Aug 2026](https://www.cp24.com/local/toronto/2026/08/27/are-you-buying-local-country-may-soon-see-resurgence-of-buy-canadian-campaign-amid-ongoing-trade-war/); [BNN Bloomberg — Canadian maker sees local demand amid tariffs, Sep 2026](https://www.bnnbloomberg.ca/tariffs/2026/09/03/canadian-paper-cup-and-bowl-maker-sees-growing-local-demand-amid-tariffs/)",
+   "founderFit": "Founder A's manufacturing know-how to pick a product that's feasible to make.",
+   "keyRisk": "Picking the right product is everything; cost competitiveness against imports.",
+   "firstStep": "Scan retailers for 20 high-volume imported SKUs and assess local production cost for 3.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-26",
+   "rank": 26.0,
+   "name": "Laser-Engraved Custom & Corporate Gifts",
+   "model": "E-commerce / B2B",
+   "scores": {
+    "C1": 3.0,
+    "C2": 3.0,
+    "C3": 3.0,
+    "C4": 5.0,
+    "C5": 4.0,
+    "C6": 2.0,
+    "C7": 2.0,
+    "C8": 2.0
+   },
+   "score": 63.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "A desktop laser for engraved wood, leather, metal and acrylic products: corporate gifts, signage, awards.",
+   "category": "Local making",
+   "categoryModel": "Local making / E-commerce / B2B",
+   "customer": "Businesses (client gifts), weddings, events",
+   "problem": "Businesses need branded gifts fast and locally.",
+   "whyNow": "Laser machines are now cheap; buy-local corporate gifting.",
+   "signalLinks": [],
+   "signals": "No external source yet (founder observation / general knowledge)",
+   "founderFit": "Easy to operate; low technical barrier.",
+   "keyRisk": "Very crowded on Etsy; price competition.",
+   "firstStep": "Make samples for 5 local businesses and quote holiday gift orders.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-27",
+   "rank": 27.0,
+   "name": "Rental Turnover Junk Removal",
+   "model": "Service",
+   "scores": {
+    "C1": 4.0,
+    "C2": 3.0,
+    "C3": 3.0,
+    "C4": 3.0,
+    "C5": 5.0,
+    "C6": 2.0,
+    "C7": 2.0,
+    "C8": 1.0
+   },
+   "score": 62.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Fast junk and furniture removal for move-outs, evictions and cleanouts, starting with the partner's turnover volume.",
+   "category": "Property services",
+   "categoryModel": "Property services / Service",
+   "customer": "PMs, landlords, estates, renovators",
+   "problem": "Abandoned tenant items stall unit turnovers; July 1 moving day in Quebec creates massive peaks.",
+   "whyNow": "Quebec's July 1 moving day concentrates demand; landlords want fast and reliable service.",
+   "signalLinks": [],
+   "signals": "No external source yet (founder observation / general knowledge)",
+   "founderFit": "The partner's 400 doors produce steady demand.",
+   "keyRisk": "Truck and dump fees; low differentiation; physically demanding.",
+   "firstStep": "Track how many cleanouts the partner's units need per month and what they pay now.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
    "stage": "Initial",
    "status": "Exploring"
   },
@@ -1066,6 +2187,47 @@ window.IDEAS_DATA = {
    "runDate": "2026-10-27",
    "focus": "Real Estate x Ops-Tech",
    "sourceFile": "02. Ideas/01. Initial/IG-20261027-01 - Idea List - Real Estate x Ops-Tech.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-28",
+   "rank": 28.0,
+   "name": "Deck & Fence Staining / Restoration",
+   "model": "Service",
+   "scores": {
+    "C1": 3.0,
+    "C2": 3.0,
+    "C3": 3.0,
+    "C4": 4.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 2.0,
+    "C8": 1.0
+   },
+   "score": 61.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Clean, sand and stain existing decks and fences each spring and summer.",
+   "category": "Home services",
+   "categoryModel": "Home services / Service",
+   "customer": "Homeowners",
+   "problem": "Decks weather fast in Quebec's climate; owners don't have the time.",
+   "whyNow": "Lots of aging decks; recurring every 2–3 years.",
+   "signalLinks": [
+    {
+     "label": "RBQ — Work requiring a licence",
+     "url": "https://www.rbq.gouv.qc.ca/en/licence/knowing-if-a-licence-is-required/work-requiring-a-licence/"
+    }
+   ],
+   "signals": "[RBQ — Work requiring a licence](https://www.rbq.gouv.qc.ca/en/licence/knowing-if-a-licence-is-required/work-requiring-a-licence/)",
+   "founderFit": "Low technical fit.",
+   "keyRisk": "Check whether RBQ licensing applies; seasonal; commoditized.",
+   "firstStep": "Do 2 partner properties and time the work.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
    "stage": "Initial",
    "status": "Exploring"
   },
@@ -1255,6 +2417,92 @@ window.IDEAS_DATA = {
    "runDate": "2026-10-27",
    "focus": "Real Estate x Ops-Tech",
    "sourceFile": "02. Ideas/01. Initial/IG-20261027-01 - Idea List - Real Estate x Ops-Tech.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-29",
+   "rank": 29.0,
+   "name": "Used Office Furniture Liquidation & Resale",
+   "model": "Trading",
+   "scores": {
+    "C1": 3.0,
+    "C2": 2.0,
+    "C3": 3.0,
+    "C4": 4.0,
+    "C5": 4.0,
+    "C6": 2.0,
+    "C7": 2.0,
+    "C8": 1.0
+   },
+   "score": 56.0,
+   "tier": "C",
+   "confidence": "Low",
+   "oneLiner": "Buy office furniture from liquidations and closures at auction and resell it locally.",
+   "category": "Reuse",
+   "categoryModel": "Reuse / trading / Trading",
+   "customer": "Startups, small offices, home offices",
+   "problem": "Offices close or downsize with tons of good furniture; small businesses want cheap quality.",
+   "whyNow": "Office downsizing continues; sustainability-minded buyers.",
+   "signalLinks": [
+    {
+     "label": "Surplus Record — used industrial equipment listings",
+     "url": "https://www.surplusrecord.com/"
+    }
+   ],
+   "signals": "[Surplus Record — used industrial equipment listings](https://www.surplusrecord.com/)",
+   "founderFit": "The partner's real-estate network surfaces office closures.",
+   "keyRisk": "Storage space and moving labor; low margins.",
+   "firstStep": "Buy one small lot at auction and sell it on Marketplace to test margins.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261027-02-30",
+   "rank": 30.0,
+   "name": "Deck Building & Outdoor Structures",
+   "model": "Service",
+   "scores": {
+    "C1": 4.0,
+    "C2": 2.0,
+    "C3": 4.0,
+    "C4": 1.0,
+    "C5": 2.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 55.0,
+   "tier": "C",
+   "confidence": "High",
+   "oneLiner": "Design and build decks, pergolas and fences.",
+   "category": "Construction",
+   "categoryModel": "Construction / Service",
+   "customer": "Homeowners",
+   "problem": "Contractors are booked months out; homeowners want good outdoor space.",
+   "whyNow": "Steady demand; labor shortage keeps prices high.",
+   "signalLinks": [
+    {
+     "label": "RBQ — Work requiring a licence",
+     "url": "https://www.rbq.gouv.qc.ca/en/licence/knowing-if-a-licence-is-required/work-requiring-a-licence/"
+    },
+    {
+     "label": "RBQ — Steps to obtain a licence ($20k security, exams)",
+     "url": "https://www.rbq.gouv.qc.ca/en/licence/obtaining-your-licence/all-the-steps-for-obtaining-a-licence/"
+    }
+   ],
+   "signals": "[RBQ — Work requiring a licence](https://www.rbq.gouv.qc.ca/en/licence/knowing-if-a-licence-is-required/work-requiring-a-licence/); [RBQ — Steps to obtain a licence ($20k security, exams)](https://www.rbq.gouv.qc.ca/en/licence/obtaining-your-licence/all-the-steps-for-obtaining-a-licence/)",
+   "founderFit": "Weak: neither founder is a carpenter, and the work is labor-intensive.",
+   "keyRisk": "Requires an RBQ contractor licence in Quebec (exams plus $20k security) and CCQ rules on residential sites; not a nights-and-weekends side gig.",
+   "firstStep": "If still interested, read the RBQ subclass guide for decks and estimate the time and cost to get licensed.",
+   "runId": "IG-20261027-02",
+   "runDate": "2026-10-27",
+   "focus": "Hands-On Services & Local Making",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
    "stage": "Initial",
    "status": "Exploring"
   },
