@@ -4,104 +4,164 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>New Ventures Ideas</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js"></script>
 <style>
 :root{
-  --bg:#f6f7f9;--surface:#fff;--text:#1b1f24;--muted:#5f6b7a;--line:#e2e6eb;
-  --accent:#2457d6;--a:#1f8a4c;--b:#b07a10;--c:#8a94a3;--chip:#eef1f5;
+  --bg:#f5f6f8;--surface:#fff;--surface2:#fafbfc;--text:#1b1f24;--muted:#5f6b7a;--line:#e2e6eb;
+  --accent:#2457d6;--accent-soft:#e8eefc;--a:#1f8a4c;--b:#b07a10;--c:#8a94a3;--chip:#eef1f5;--warn:#b07a10;
+  --shadow:0 1px 2px rgba(16,24,40,.05),0 1px 3px rgba(16,24,40,.06);
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#111418;--surface:#1a1e24;--text:#e7ebf0;--muted:#98a3b1;--line:#2b313a;
-  --accent:#7aa2ff;--a:#4cc382;--b:#e0ad45;--c:#7d8796;--chip:#242a32;}}
+  --bg:#0f1215;--surface:#181c21;--surface2:#1d2228;--text:#e7ebf0;--muted:#98a3b1;--line:#2b313a;
+  --accent:#7aa2ff;--accent-soft:#1f2a44;--a:#4cc382;--b:#e0ad45;--c:#7d8796;--chip:#242a32;--warn:#e0ad45;--shadow:none;}}
 :root[data-theme="dark"]{
-  --bg:#111418;--surface:#1a1e24;--text:#e7ebf0;--muted:#98a3b1;--line:#2b313a;
-  --accent:#7aa2ff;--a:#4cc382;--b:#e0ad45;--c:#7d8796;--chip:#242a32;}
+  --bg:#0f1215;--surface:#181c21;--surface2:#1d2228;--text:#e7ebf0;--muted:#98a3b1;--line:#2b313a;
+  --accent:#7aa2ff;--accent-soft:#1f2a44;--a:#4cc382;--b:#e0ad45;--c:#7d8796;--chip:#242a32;--warn:#e0ad45;--shadow:none;}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif}
-header,main{max-width:1400px;margin:0 auto;padding:0 16px}
-header{padding-top:28px;padding-bottom:8px}
-h1{margin:0;font-size:24px}
-.sub{color:var(--muted);margin-top:4px}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:18px 0}
-.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
-.stat b{display:block;font-size:22px}.stat span{color:var(--muted);font-size:12px}
-.controls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
-input,select,button{font:inherit;color:var(--text);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:7px 10px}
-input[type=search]{flex:1;min-width:200px}
-button{cursor:pointer}
-details.weights{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-bottom:12px}
-details.weights summary{cursor:pointer;font-weight:600}
-.wgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px 16px;margin-top:10px}
-.wgrid label{display:flex;justify-content:space-between;gap:8px;font-size:13px}
-.wgrid input{width:90px;padding:0}
-.tablewrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px}
-table{border-collapse:collapse;width:100%;min-width:900px}
-th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
-th{position:sticky;top:0;background:var(--surface);font-size:12px;color:var(--muted);cursor:pointer;user-select:none;white-space:nowrap}
-th.sorted{color:var(--accent)}
-td.n{text-align:right;font-variant-numeric:tabular-nums}
-tr.row{cursor:pointer}tr.row:hover{background:var(--chip)}
-.tier{display:inline-block;min-width:22px;text-align:center;border-radius:6px;font-weight:700;color:#fff;padding:0 6px}
-.tA{background:var(--a)}.tB{background:var(--b)}.tC{background:var(--c)}
-.chip{display:inline-block;background:var(--chip);border-radius:6px;padding:0 6px;font-size:12px;margin-right:4px}
-.cell{display:inline-block;width:22px;text-align:center;border-radius:4px;font-size:12px}
-.bar{height:6px;border-radius:3px;background:var(--accent);opacity:.75}
-.detail td{background:var(--bg)}
-.detail dl{display:grid;grid-template-columns:150px 1fr;gap:4px 12px;margin:4px 0}
-.detail dt{color:var(--muted)}.detail dd{margin:0}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif}
+.wrap{max-width:1320px;margin:0 auto;padding:0 16px}
+header{padding:28px 0 6px}
+h1{margin:0;font-size:26px;letter-spacing:-.01em}
+h2{font-size:22px;margin:0 0 6px;letter-spacing:-.01em}
+h3{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 10px}
+.sub{color:var(--muted);font-size:13px}
 a{color:var(--accent)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
+.pad{padding:18px 20px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:16px 0}
+.stat{padding:12px 14px}.stat b{display:block;font-size:22px}.stat span{color:var(--muted);font-size:12px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+input,select,button{font:inherit;font-size:14px;color:var(--text);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:7px 10px}
+input[type=search]{flex:1;min-width:200px}
+button{cursor:pointer}button:hover{border-color:var(--accent)}
+details>summary{cursor:pointer;font-weight:600;list-style:none}
+details>summary::before{content:"▸ ";color:var(--muted)}details[open]>summary::before{content:"▾ "}
+.weights{margin-bottom:12px}
+.wgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px 18px;margin-top:10px}
+.wgrid label{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:13px}
+.wgrid input{width:90px;padding:0}
+/* Batch overview */
+.batch{margin:8px 0 6px}
+.batch .tabs{margin-top:12px}
+/* Table */
+.tablewrap{overflow-x:auto}
+table.ideas{border-collapse:collapse;width:100%;min-width:960px}
+.ideas th,.ideas td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.ideas th{position:sticky;top:0;background:var(--surface);font-size:12px;color:var(--muted);cursor:pointer;user-select:none;white-space:nowrap}
+.ideas th.sorted{color:var(--accent)}
+td.n{text-align:right;font-variant-numeric:tabular-nums}
+tr.row{cursor:pointer}tr.row:hover{background:var(--surface2)}
+.tier{display:inline-block;min-width:24px;text-align:center;border-radius:6px;font-weight:700;color:#fff;padding:0 7px;font-size:13px}
+.tA{background:var(--a)}.tB{background:var(--b)}.tC{background:var(--c)}
+.chip{display:inline-block;background:var(--chip);border-radius:999px;padding:2px 10px;font-size:12px;margin:0 4px 4px 0;white-space:nowrap}
+.chip.accent{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.cell{display:inline-block;width:24px;text-align:center;border-radius:4px;font-size:12px}
+.bar{height:5px;border-radius:3px;background:var(--accent);opacity:.8;margin-top:3px}
 .empty{padding:40px;text-align:center;color:var(--muted)}
-.warn{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--b);border-radius:8px;padding:10px 14px;margin-bottom:12px}
-footer{max-width:1400px;margin:16px auto 40px;padding:0 16px;color:var(--muted);font-size:12px}
-@media (max-width:640px){.detail dl{grid-template-columns:1fr}}
+.warn{border-left:4px solid var(--warn);margin-bottom:12px}
+footer{margin:18px auto 40px;color:var(--muted);font-size:12px}
+/* Detail view */
+#detail{display:none;padding-bottom:60px}
+body.detail #list{display:none}body.detail #detail{display:block}
+.crumbs{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:18px 0 12px;flex-wrap:wrap}
+.hero{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:start}
+.hero .lead{font-size:17px;color:var(--text);margin:6px 0 12px;max-width:820px}
+.bigscore{text-align:center;min-width:130px}
+.bigscore b{display:block;font-size:44px;line-height:1;font-variant-numeric:tabular-nums}
+.bigscore span{font-size:12px;color:var(--muted)}
+.section{margin-top:16px}
+.grid{display:grid;gap:14px}
+.g3{grid-template-columns:repeat(3,1fr)}.g2{grid-template-columns:repeat(2,1fr)}
+.field p{margin:0}
+.callout{border-left:4px solid var(--accent);background:var(--accent-soft)}
+.callout.risk{border-left-color:var(--warn);background:var(--surface)}
+.crit{display:grid;grid-template-columns:150px 1fr 44px;gap:10px;align-items:center;margin:7px 0;font-size:14px}
+.crit .track{height:10px;border-radius:5px;background:var(--chip);overflow:hidden}
+.crit .fill{height:100%;border-radius:5px;background:var(--accent)}
+.crit small{color:var(--muted)}
+.signals li{margin:4px 0}
+.tabs{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line);margin-bottom:16px}
+.tab{border:none;background:none;border-bottom:2px solid transparent;border-radius:0;padding:8px 12px;color:var(--muted)}
+.tab.on{color:var(--accent);border-bottom-color:var(--accent);font-weight:600}
+.md{max-width:900px}
+.md h1{font-size:22px}.md h2{font-size:18px;margin:24px 0 8px;padding-bottom:4px;border-bottom:1px solid var(--line)}
+.md h3{font-size:15px;text-transform:none;letter-spacing:0;color:var(--text);margin:18px 0 6px}
+.md table{border-collapse:collapse;width:100%;margin:10px 0;font-size:14px;display:block;overflow-x:auto}
+.md th,.md td{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top}
+.md th{background:var(--surface2)}
+.md blockquote{margin:10px 0;padding:6px 14px;border-left:3px solid var(--line);color:var(--muted)}
+.md code{background:var(--chip);padding:1px 5px;border-radius:4px;font-size:13px}
+.videos{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin-bottom:18px}
+.video{display:block;text-decoration:none;color:var(--text)}
+.video img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;background:var(--chip)}
+.video span{display:block;font-size:13px;margin-top:4px}
+.navbtns{display:flex;gap:6px}
+@media (max-width:820px){.g3,.g2{grid-template-columns:1fr}.hero{grid-template-columns:1fr}.bigscore{text-align:left}.crit{grid-template-columns:110px 1fr 40px}}
 </style>
 </head>
 <body>
+<div class="wrap">
 <header>
   <h1>New Ventures — Ideas</h1>
   <div class="sub" id="sub"></div>
-  <div class="stats" id="stats"></div>
 </header>
-<main>
+
+<section id="list">
+  <div id="batch"></div>
+  <div class="stats" id="stats"></div>
   <div id="warn"></div>
   <div class="controls">
     <input type="search" id="q" placeholder="Search name, problem, customer…">
     <select id="fTier"><option value="">All tiers</option><option>A</option><option>B</option><option>C</option></select>
     <select id="fConf"><option value="">All confidence</option><option>High</option><option>Medium</option><option>Low</option></select>
     <select id="fModel"><option value="">All models</option></select>
-    <select id="fRun"><option value="">All runs</option></select>
+    <select id="fRun"><option value="">All batches</option></select>
     <select id="fStage"><option value="">All stages</option><option>Initial</option><option>Researched</option></select>
     <button id="reset">Reset</button>
     <button id="csv">Export CSV</button>
   </div>
-  <details class="weights">
+  <details class="card pad weights">
     <summary>Scoring weights (re-rank live)</summary>
     <div class="wgrid" id="wgrid"></div>
-    <p class="sub">Weights are normalized to 100%. Score = Σ(criterion × weight) × 20.</p>
+    <p class="sub">Weights are normalized to 100%. Score = Σ(criterion × weight) × 20. Tier A ≥ 75 · B ≥ 60 · C &lt; 60.</p>
   </details>
-  <div class="tablewrap"><table><thead><tr id="thead"></tr></thead><tbody id="tbody"></tbody></table></div>
-</main>
-<footer id="foot"></footer>
+  <div class="card tablewrap"><table class="ideas"><thead><tr id="thead"></tr></thead><tbody id="tbody"></tbody></table></div>
+  <footer id="foot"></footer>
+</section>
+
+<section id="detail"></section>
+</div>
+
 <script src="data.js"></script>
 <script>
 const D = window.IDEAS_DATA || {ideas:[],runs:[],criteria:[],incomplete:{}};
-const CRIT = [["C1","Demand"],["C2","Founder Fit"],["C3","Profit"],["C4","Feasibility"],["C5","Speed"],["C6","Competition"],["C7","Timing"],["C8","Defensibility"]];
+const CRIT = [["C1","Market Demand"],["C2","Founder Fit"],["C3","Profit Potential"],["C4","Feasibility & Cost"],["C5","Speed to Revenue"],["C6","Competition"],["C7","Timing & Tailwind"],["C8","Defensibility"]];
 const DEFAULT_W = {C1:20,C2:15,C3:15,C4:15,C5:10,C6:10,C7:10,C8:5};
-let W = {...DEFAULT_W}, sortKey = "live", sortDir = -1, open = new Set();
+let W = {...DEFAULT_W}, sortKey = "live", sortDir = -1;
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const md = s => esc(s).replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
-
+const inline = s => esc(s).replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>').replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
+function md(text){
+  if (!text) return "";
+  if (window.marked && window.DOMPurify){
+    const html = DOMPurify.sanitize(marked.parse(text));
+    return html.replace(/<a href="http/g, '<a target="_blank" rel="noopener" href="http');
+  }
+  return "<p>" + inline(text).replace(/\n\n/g, "</p><p>").replace(/\n/g, "<br>") + "</p>";
+}
 function live(i){
   const s = i.scores || {}; const tot = Object.values(W).reduce((a,b)=>a+b,0) || 1;
   if (CRIT.some(([k]) => s[k] == null)) return i.score ?? null;
   return Math.round(CRIT.reduce((a,[k]) => a + s[k]*W[k]/tot, 0)*20*10)/10;
 }
 const tierOf = v => v == null ? "" : v >= 75 ? "A" : v >= 60 ? "B" : "C";
+const tierBadge = t => t ? `<span class="tier t${t}">${t}</span>` : "";
 
+/* ---------- List view ---------- */
 function init(){
-  $("sub").textContent = `Generated ${D.generated || "—"} · ${D.ideas.length} ideas from ${D.runs.length} run(s)`;
-  const models = [...new Set(D.ideas.map(i => i.model).filter(Boolean))].sort();
-  models.forEach(m => $("fModel").add(new Option(m)));
+  $("sub").textContent = `${D.ideas.length} ideas from ${D.runs.length} batch(es) · updated ${D.generated || "—"} · click any idea for the full profile`;
+  [...new Set(D.ideas.map(i => i.model).filter(Boolean))].sort().forEach(m => $("fModel").add(new Option(m)));
   D.runs.forEach(r => $("fRun").add(new Option(`${r.runId} · ${r.focus}`, r.runId)));
   $("wgrid").innerHTML = CRIT.map(([k,n]) => `<label>${k} ${n}<input type="range" min="0" max="40" value="${W[k]}" data-k="${k}"><span id="w${k}">${W[k]}</span></label>`).join("");
   $("wgrid").addEventListener("input", e => { const k = e.target.dataset.k; if(!k) return; W[k] = +e.target.value; $("w"+k).textContent = W[k]; render(); });
@@ -110,14 +170,25 @@ function init(){
     document.querySelectorAll("#wgrid input").forEach(el => { el.value = W[el.dataset.k]; $("w"+el.dataset.k).textContent = W[el.dataset.k]; }); render(); };
   $("csv").onclick = exportCsv;
   const inc = Object.keys(D.incomplete || {});
-  if (inc.length) $("warn").innerHTML = `<div class="warn"><b>${inc.length} idea(s) missing fields:</b> ${inc.map(esc).join(", ")}</div>`;
-  $("foot").innerHTML = D.runs.map(r => `${esc(r.runId)} — ${esc(r.focus)} (${esc(r.runDate)}) · <code>${esc(r.sourceFile)}</code>`).join("<br>");
+  if (inc.length) $("warn").innerHTML = `<div class="card pad warn"><b>${inc.length} idea(s) missing fields:</b> ${inc.map(esc).join(", ")}</div>`;
+  $("foot").innerHTML = D.runs.map(r => `${esc(r.runId)} — ${esc(r.focus)} (${esc(r.runDate)}) · ${esc(r.sourceFile)}`).join("<br>");
+  renderBatch();
   render();
+  route();
 }
 
-const COLS = [["rank","#"],["name","Idea"],["model","Model"],["stage","Stage"],...CRIT.map(([k,n]) => [k,n]),["live","Score"],["tier","Tier"],["confidence","Conf."]];
-function val(i,k){ if(k==="live") return live(i); if(k==="tier") return tierOf(live(i)); if(k.startsWith("C")&&k.length===2) return (i.scores||{})[k]; return i[k]; }
+function renderBatch(){
+  const r = D.runs[0]; if (!r) return;
+  const tabs = [["summary","Executive summary"],["top","Top 5"],["themes","Highlights & themes"],["brief","Founder brief"],["nextSteps","Next steps"]].filter(([k]) => r[k]);
+  $("batch").innerHTML = `<details class="card pad batch" open><summary>Latest batch: ${esc(r.focus)} <span class="sub">(${esc(r.runId)} · ${esc(r.runDate)})</span></summary>
+    <div class="tabs" id="btabs">${tabs.map(([k,n],j) => `<button class="tab ${j?"":"on"}" data-k="${k}">${n}</button>`).join("")}</div>
+    <div class="md" id="bbody">${md(r[tabs[0]?.[0]])}</div></details>`;
+  $("btabs").onclick = e => { const k = e.target.dataset.k; if(!k) return;
+    $("btabs").querySelectorAll(".tab").forEach(b => b.classList.toggle("on", b.dataset.k === k)); $("bbody").innerHTML = md(r[k]); };
+}
 
+const COLS = [["rank","#"],["name","Idea"],["model","Model"],["stage","Stage"],...CRIT.map(([k,n]) => [k,n.split(" ")[0]]),["live","Score"],["tier","Tier"],["confidence","Conf."]];
+function val(i,k){ if(k==="live") return live(i); if(k==="tier") return tierOf(live(i)); if(/^C\d$/.test(k)) return (i.scores||{})[k]; return i[k]; }
 function filtered(){
   const q = $("q").value.toLowerCase();
   return D.ideas.filter(i =>
@@ -131,35 +202,122 @@ function filtered(){
     if (x == null) return 1; if (y == null) return -1;
     return (typeof x === "number" ? x - y : String(x).localeCompare(String(y))) * sortDir; });
 }
-
 function render(){
   const rows = filtered();
   const scores = rows.map(live).filter(v => v != null);
   const count = t => rows.filter(i => tierOf(live(i)) === t).length;
-  $("stats").innerHTML = [["Shown",rows.length],["Tier A",count("A")],["Tier B",count("B")],["Tier C",count("C")],
-    ["Avg score",scores.length ? (scores.reduce((a,b)=>a+b,0)/scores.length).toFixed(1) : "—"],
-    ["Researched",rows.filter(i => i.stage==="Researched").length]]
-    .map(([l,v]) => `<div class="stat"><b>${v}</b><span>${l}</span></div>`).join("");
-  $("thead").innerHTML = COLS.map(([k,n]) => `<th data-k="${k}" class="${k===sortKey?"sorted":""}">${n}${k===sortKey?(sortDir>0?" ▲":" ▼"):""}</th>`).join("");
-  if (!rows.length){ $("tbody").innerHTML = `<tr><td colspan="${COLS.length}" class="empty">${D.ideas.length ? "No ideas match these filters." : "No ideas yet. Run WF-01 Idea Generation, then WF-02 to update this page."}</td></tr>`; return; }
+  $("stats").innerHTML = [["Ideas shown",rows.length],["Tier A",count("A")],["Tier B",count("B")],["Tier C",count("C")],
+    ["Average score",scores.length ? (scores.reduce((a,b)=>a+b,0)/scores.length).toFixed(1) : "—"],["Deep-researched",rows.filter(i => i.stage==="Researched").length]]
+    .map(([l,v]) => `<div class="card stat"><b>${v}</b><span>${l}</span></div>`).join("");
+  $("thead").innerHTML = COLS.map(([k,n]) => `<th data-k="${k}" class="${k===sortKey?"sorted":""}" title="${esc((CRIT.find(c=>c[0]===k)||[])[1]||"")}">${n}${k===sortKey?(sortDir>0?" ▲":" ▼"):""}</th>`).join("");
+  if (!rows.length){ $("tbody").innerHTML = `<tr><td colspan="${COLS.length}" class="empty">${D.ideas.length ? "No ideas match these filters." : "No ideas yet."}</td></tr>`; return; }
   $("tbody").innerHTML = rows.map(i => {
-    const s = i.scores || {}, L = live(i), t = tierOf(L);
-    const row = `<tr class="row" data-id="${esc(i.id)}"><td class="n">${i.rank ?? ""}</td><td><b>${esc(i.name)}</b><br><span class="sub">${esc(i.oneLiner || "").slice(0,110)}</span></td>
+    const s = i.scores || {}, L = live(i);
+    return `<tr class="row" data-id="${esc(i.id)}"><td class="n">${i.rank ?? ""}</td>
+      <td><b>${esc(i.name)}</b>${i.stage==="Researched"?' <span class="chip accent">Researched</span>':""}<br><span class="sub">${esc(i.oneLiner || "").slice(0,120)}</span></td>
       <td><span class="chip">${esc(i.model || "")}</span></td><td>${esc(i.stage)}</td>
       ${CRIT.map(([k]) => `<td class="n"><span class="cell" style="background:color-mix(in srgb, var(--accent) ${(s[k]||0)*14}%, transparent)">${s[k] ?? "–"}</span></td>`).join("")}
       <td class="n"><b>${L ?? "–"}</b><div class="bar" style="width:${L||0}%"></div></td>
-      <td>${t ? `<span class="tier t${t}">${t}</span>` : ""}</td><td>${esc(i.confidence || "")}</td></tr>`;
-    if (!open.has(i.id)) return row;
-    const f = [["Recommendation",i.recommendation],["Research summary",i.summary],["Research folder",i.folder],["ID",i.id],["Category",i.category],["Target customer",i.customer],["Problem",i.problem],["Why now",i.whyNow],["Signals",i.signals],
-      ["Founder fit",i.founderFit],["Key risk",i.keyRisk],["First step",i.firstStep],["Status",i.status],["Source",i.sourceFile]].filter(([,v]) => v);
-    return row + `<tr class="detail"><td></td><td colspan="${COLS.length-1}"><dl>${f.map(([k,v]) => `<dt>${k}</dt><dd>${md(v)}</dd>`).join("")}</dl></td></tr>`;
+      <td>${tierBadge(tierOf(L))}</td><td>${esc(i.confidence || "")}</td></tr>`;
   }).join("");
 }
-
 $("thead").addEventListener("click", e => { const k = e.target.closest("th")?.dataset.k; if(!k) return;
   if (k === sortKey) sortDir *= -1; else { sortKey = k; sortDir = ["name","model","stage","tier","confidence","rank"].includes(k) ? 1 : -1; } render(); });
-$("tbody").addEventListener("click", e => { if (e.target.closest("a")) return; const id = e.target.closest("tr.row")?.dataset.id; if(!id) return;
-  open.has(id) ? open.delete(id) : open.add(id); render(); });
+$("tbody").addEventListener("click", e => { const id = e.target.closest("tr.row")?.dataset.id; if (id) location.hash = "#/idea/" + id; });
+
+/* ---------- Detail view ---------- */
+function field(title, body, cls=""){ return body ? `<div class="card pad field ${cls}"><h3>${title}</h3><p>${inline(body)}</p></div>` : ""; }
+function videosFrom(text){
+  const out = [], seen = new Set();
+  for (const m of String(text).matchAll(/\[([^\]]+)\]\((https?:\/\/(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)([\w-]{11})[^)]*)\)/g)){
+    if (!seen.has(m[3])) { seen.add(m[3]); out.push({title:m[1], url:m[2], id:m[3]}); }
+  }
+  return out;
+}
+function showDetail(id){
+  const order = filtered().length ? filtered() : D.ideas;
+  const i = D.ideas.find(x => x.id === id);
+  if (!i) { location.hash = ""; return; }
+  const pos = order.findIndex(x => x.id === id);
+  const prev = order[pos-1], next = order[pos+1];
+  const L = live(i), t = tierOf(L), s = i.scores || {};
+  const research = i.research || [];
+  const tabs = research.length ? [{title:"Overview", markdown:i.readme}, ...research] : [];
+  document.body.classList.add("detail");
+  $("detail").innerHTML = `
+    <div class="crumbs">
+      <button onclick="location.hash=''">← All ideas</button>
+      <div class="navbtns">
+        ${prev ? `<button onclick="location.hash='#/idea/${esc(prev.id)}'" title="${esc(prev.name)}">‹ Previous</button>` : ""}
+        ${next ? `<button onclick="location.hash='#/idea/${esc(next.id)}'" title="${esc(next.name)}">Next ›</button>` : ""}
+      </div>
+    </div>
+
+    <div class="card pad hero">
+      <div>
+        <div class="sub">${esc(i.id)}${i.rank ? ` · Rank #${i.rank} of ${D.ideas.filter(x=>x.runId===i.runId).length} in batch` : ""}</div>
+        <h2>${esc(i.name)}</h2>
+        <p class="lead">${inline(i.oneLiner || i.summary || "")}</p>
+        <div>
+          ${i.category ? `<span class="chip">${esc(i.category)}</span>` : ""}
+          ${i.model ? `<span class="chip">${esc(i.model)}</span>` : ""}
+          <span class="chip">${esc(i.stage)}</span>
+          ${i.status ? `<span class="chip">Status: ${esc(i.status)}</span>` : ""}
+          ${i.confidence ? `<span class="chip">Confidence: ${esc(i.confidence)}</span>` : ""}
+          ${i.recommendation ? `<span class="chip accent">Recommendation: ${esc(i.recommendation)}</span>` : ""}
+        </div>
+      </div>
+      <div class="bigscore"><b>${L ?? "–"}</b><span>weighted score</span><div style="margin-top:8px">${tierBadge(t)} <span class="sub">Tier ${t}</span></div></div>
+    </div>
+
+    <div class="section grid g2">
+      <div class="card pad">
+        <h3>Scorecard</h3>
+        ${CRIT.map(([k,n]) => `<div class="crit"><div>${n} <small>${W[k]}%</small></div>
+          <div class="track"><div class="fill" style="width:${(s[k]||0)*20}%"></div></div><div class="n"><b>${s[k] ?? "–"}</b><small>/5</small></div></div>`).join("")}
+      </div>
+      <div class="grid">
+        ${field("Target customer", i.customer)}
+        ${field("The problem", i.problem)}
+        ${field("Why now", i.whyNow)}
+      </div>
+    </div>
+
+    <div class="section grid g3">
+      ${field("Founder fit", i.founderFit)}
+      ${field("Key risk", i.keyRisk, "callout risk")}
+      ${field("First step (≤ 2 weeks)", i.firstStep, "callout")}
+    </div>
+
+    ${(i.signalLinks||[]).length || i.signals ? `<div class="section card pad"><h3>Evidence & signals</h3>
+      ${(i.signalLinks||[]).length ? `<ul class="signals">${i.signalLinks.map(l => `<li><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a></li>`).join("")}</ul>` : `<p>${inline(i.signals)}</p>`}</div>` : ""}
+
+    <div class="section card pad">
+      <h3>Deep research</h3>
+      ${tabs.length ? `<div class="tabs" id="rtabs">${tabs.map((r,j) => `<button class="tab ${j?"":"on"}" data-j="${j}">${esc(r.title)}</button>`).join("")}</div>
+        <div id="rbody"></div>`
+      : `<p class="sub">Not researched yet. Run <b>WF-03 Idea Deep Research</b> on <code>${esc(i.id)}</code> to add the market analysis, competitors, business plan, risks and curated videos here.</p>`}
+    </div>
+    <p class="sub" style="margin-top:14px">Source: ${esc(i.folder || i.sourceFile || "")}</p>`;
+  if (tabs.length){
+    const show = j => {
+      const r = tabs[j], vids = /video/i.test(r.title) ? videosFrom(r.markdown) : [];
+      $("rbody").innerHTML = (vids.length ? `<div class="videos">${vids.map(v => `<a class="video" href="${esc(v.url)}" target="_blank" rel="noopener"><img loading="lazy" src="https://i.ytimg.com/vi/${v.id}/hqdefault.jpg" alt=""><span>${esc(v.title)}</span></a>`).join("")}</div>` : "")
+        + `<div class="md">${md(r.markdown)}</div>`;
+      $("rtabs").querySelectorAll(".tab").forEach(b => b.classList.toggle("on", +b.dataset.j === j));
+    };
+    $("rtabs").onclick = e => { if (e.target.dataset.j) show(+e.target.dataset.j); };
+    show(0);
+  }
+  window.scrollTo(0, 0);
+}
+function route(){
+  const m = location.hash.match(/^#\/idea\/(.+)$/);
+  if (m) showDetail(decodeURIComponent(m[1]));
+  else { document.body.classList.remove("detail"); $("detail").innerHTML = ""; }
+}
+window.addEventListener("hashchange", route);
+document.addEventListener("keydown", e => { if (e.key === "Escape" && document.body.classList.contains("detail")) location.hash = ""; });
 
 function exportCsv(){
   const head = ["id","name","model","stage",...CRIT.map(c=>c[0]),"score","tier","confidence","oneLiner","customer","keyRisk"];

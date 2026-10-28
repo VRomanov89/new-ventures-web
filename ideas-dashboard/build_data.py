@@ -45,6 +45,8 @@ REQUIRED = ["name", "oneLiner", "customer", "problem", "whyNow", "signals",
 IDEA_ID = re.compile(r"IG-\d{8}-\d{2}-\d{2}")
 RUN_ID = re.compile(r"IG-\d{8}-\d{2}")
 DR_ID = re.compile(r"DR-\d{8}-\d{2}")
+RUN_INFO = {}
+RESEARCH_FILE = re.compile(r"^(\d{2})\. (.+)\.md$")
 LINK = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 
 
@@ -90,6 +92,13 @@ def parse_initial(path):
         "runDate": meta.get("date", ""),
         "focus": meta.get("focus", ""),
         "sourceFile": str(path.relative_to(ROOT)),
+    }
+    RUN_INFO[run_id] = {
+        "brief": section(text, r"\d*\.? *Opportunity Brief").strip(),
+        "summary": section(text, r"\d*\.? *Executive Summary").strip(),
+        "top": section(text, r"\d*\.? *Top 5").strip(),
+        "themes": section(text, r"\d*\.? *Special Mentions").strip(),
+        "nextSteps": section(text, r"\d*\.? *Next Steps").strip(),
     }
     ideas = {}
 
@@ -172,6 +181,13 @@ def parse_idea_folder(folder):
         "folder": str(folder.relative_to(ROOT)),
         "sourceFile": str(readme.relative_to(ROOT)),
     }
+    # Full deep-research content for the detail view
+    idea["readme"] = text
+    idea["research"] = [
+        {"title": m.group(2), "markdown": f.read_text(encoding="utf-8")}
+        for f in sorted(folder.iterdir())
+        for m in [RESEARCH_FILE.match(f.name)] if m
+    ]
     rec = re.search(r"\|\s*\*\*Recommendation\*\*\s*\|\s*(.+?)\s*\|", text)
     if rec and "/" not in rec.group(1):
         idea["recommendation"] = rec.group(1)
@@ -212,7 +228,8 @@ def main():
     for path in sorted(INITIAL_DIR.glob("IG-*.md")):
         for idea in parse_initial(path):
             ideas[idea["id"]] = idea
-            runs[idea["runId"]] = {k: idea[k] for k in ("runId", "runDate", "focus", "sourceFile")}
+            runs[idea["runId"]] = {**{k: idea[k] for k in ("runId", "runDate", "focus", "sourceFile")},
+                                   **RUN_INFO.get(idea["runId"], {})}
 
     # Promoted idea folders override / extend the initial entries
     for folder in sorted(p for p in IDEAS_DIR.iterdir() if p.is_dir() and p != INITIAL_DIR):
