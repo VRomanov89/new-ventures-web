@@ -1,5 +1,5 @@
 window.IDEAS_DATA = {
- "generated": "2026-10-27 21:53",
+ "generated": "2026-10-28 15:07",
  "criteria": [
   {
    "key": "C1",
@@ -35,6 +35,17 @@ window.IDEAS_DATA = {
   }
  ],
  "runs": [
+  {
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "brief": "- **Founder profile:** Same two co-founders as IG-20261027-01/02. **Founder A (Ops/Tech):** electrical engineer and MBA, industrial automation and controls, runs an engineering-education business with a ~200k audience, and Joltek (manufacturing consulting). **Founder B (Real Estate):** residential property manager running a team that manages ~400 doors.\n- **Source-driven run:** Ideas are mined from **UpFlip** (YouTube channel plus UpFlip Academy), which interviews owners of small, profitable businesses. All 291 videos on the channel's Videos tab were pulled with view counts into [the video index](sources/UpFlip%20Video%20Index%202026-10-28.md); the **top 75 by views**, the fastest risers (views per month) and the **32 Academy courses** were clustered into business models, then adapted to the founders and Quebec.\n- **Constraints (carried over):** Side income first; <$10k combined up-front capital; nights and weekends; Montreal/Laval plus online.\n- **Assumptions made:** UpFlip revenue claims are self-reported by guests and selected for virality, so they are treated as *signals of interest*, not validated economics. Quebec rules (MAPAQ, RBQ, CITQ, zoning) apply.\n- **Brief confirmed by user:** Yes (source and method given by the user; constraints carried from prior batches)",
+   "summary": "UpFlip's audience rewards **food, farming and route-based home services**. Food alone fills 6 of the top 30 videos, and backyard fish and farming hold #1 and #2 of the last year. **But what gets views is not what fits these founders.** The highest-viewed models (food trucks, trucking, gas stations, container farms) fail the <$10k and nights-and-weekends filters, so they sit at the bottom. What rises to the top are UpFlip models where **Founder B's 400 doors are an unfair advantage** (placement, first customers, land or space) or where **Founder A's automation background** adds an edge. The top of the list is 3D Print Farm for Niche Products (#1), Smart Cooler Micro-Markets for Plants & Warehouses (#2) and Engineer & Automation Merch (Print-on-Demand) (#3). The freshest signals are Gourmet Mushroom Micro-Farm (Garage/Basement) (#7) (fastest-growing UpFlip upload in a year) and Outdoor RV, Boat & Trailer Storage on Leased Land (#11) (644K views in its first month). Both are low-capital and new to our lists. Several ideas repeat earlier batches (recruiting, 3D printing, epoxy, seasonal services); UpFlip independently validates them, and they are marked as overlaps. Distribution: 5 Tier A, 19 Tier B, 6 Tier C.",
+   "top": "### 1. 3D Print Farm for Niche Products — 80.0\n**Why it stands out:** 'One of America's Largest 3D Print Farms Started in a Closet' (1.1M views) validates the batch 2 thesis. Founder fit: Founder A's engineering and audience (see batch 2 #1); garage-sized.\n**Validate first:** See batch 2 #1: ship 3 audience-specific SKUs and track sell-through.\n\n### 2. Smart Cooler Micro-Markets for Plants & Warehouses — 77.0\n**Why it stands out:** UpFlip's 'Death of Traditional Vending' video (2.0M views, $117 start) and the Academy bootcamp's '24/7 warehouse' testimonial point to unattended retail at industrial sites. Founder fit: Joltek's plant network supplies locations; Founder A speaks the plant manager's language. A real channel edge.\n**Validate first:** Pitch 3 plants from Joltek contacts on a free-placement pilot; get a lease quote for one smart cooler.\n\n### 3. Engineer & Automation Merch (Print-on-Demand) — 76.0\n**Why it stands out:** 'T-Shirt Business Hit $1M in Year One ($20 startup)' (735K) plus UpFlip's Print-on-Demand course: the key is having distribution. Founder fit: Founder A owns the audience, which is the decisive advantage. No inventory, launchable this week.\n**Validate first:** Launch 5 designs on a POD store linked from the next SolisPLC post; measure conversion.\n\n### 4. Building Vending Micro-Route (Laundry Rooms & Lobbies) — 75.0\n**Why it stands out:** Vending is UpFlip's single most-covered model: 3 viral videos plus an Academy bootcamp with student wins ('$150/week from two machines'). Founder fit: Founder B controls placement, the hardest part of vending, across 400 doors. Founder A handles telemetry and cashless payments.\n**Validate first:** Ask 3 owners in the portfolio for consent; buy one refurbished combo machine (~$2–4k) and track weekly sales for 6 weeks.\n\n### 5. Industrial Recruiting Agency — 75.0\n**Why it stands out:** UpFlip Academy 'How to Start a Recruitment Agency' course; validates the batch 1 idea from a different source. Founder fit: Founder A's audience is the candidate pool and Joltek is the client list: the strongest fit.\n**Validate first:** See batch 1 (IG-20261027-01-02).",
+   "themes": "| Category | Idea | Why |\n|---|---|---|\n| Best quick win | Engineer & Automation Merch (Print-on-Demand) (IG-20261028-01-03) | Launch in days with the partner's portfolio as first customer. |\n| Best real-estate synergy | Building Vending Micro-Route (Laundry Rooms & Lobbies) (IG-20261028-01-04) | The 400 doors solve this model's hardest problem. |\n| Best big bet | Smart Cooler Micro-Markets for Plants & Warehouses (IG-20261028-01-02) | Scales beyond a side hustle with a real channel edge. |\n| Best wildcard | Gourmet Mushroom Micro-Farm (Garage/Basement) (IG-20261028-01-07) | UpFlip's fastest riser; process-control skills apply. |\n| Best Joltek synergy | 3D Print Farm for Niche Products (IG-20261028-01-01) | Plant contacts supply what competitors can't. |\n\n**Themes from the UpFlip data (291 videos, ~194M views, median 305K per video):**\n1. **Views ≠ fit.** Food (trucks, fried chicken, pizza, burgers) and trucking or gas stations dominate views but need full-time work and $50k+. They are kept at the bottom as a deliberate reality check.\n2. **Route-based home services are UpFlip's backbone.** Cleaning (#1 Academy course, 2,356 students), pressure washing, detailing, junk removal and vending all have multiple 1M+ videos. For these founders, the property portfolio turns each into a pre-sold route.\n3. **Backyard and indoor agriculture is the rising theme of 2025–26.** Fish (3.9M in 4 months), mushrooms (1.2M in 2 months), honey and bees, and microgreens. Most need MAPAQ permits and patience; mushrooms is the one that fits <$10k.\n4. **'Rent the asset' plays** (dirt lots, cars, mid-term units, machines) suit Founder B's skill set, but zoning, insurance and Turo eligibility in Quebec need verification first.\n5. **UpFlip validates earlier batches.** Recruiting (batch 1), 3D printing, epoxy and holiday lights (batch 2) all show up as proven UpFlip models.",
+   "nextSteps": "- **Recommended for deep research (WF-03):** IG-20261028-01-01 (3D Print Farm for Niche Products), IG-20261028-01-02 (Smart Cooler Micro-Markets for Plants & Warehouses), IG-20261028-01-03 (Engineer & Automation Merch (Print-on-Demand)), IG-20261028-01-07 (Gourmet Mushroom Micro-Farm (Garage/Basement))\n- **Cheap validation this month:** vending consent from 3 owners; turnover-cleaning pricing in the portfolio; a Laval zoning call for an outdoor storage lot.\n- **Questions for the user:**\n  1. Would the partner's owners accept vendor services (vending, cleaning, storage) from a company the property manager co-owns? This is the key conflict-of-interest question behind most top ideas.\n  2. Does either founder have garage or basement space (mushrooms, 3D printing, CNC)?\n  3. Should a future run mine UpFlip podcast episodes or Academy blueprints in more depth?"
+  },
   {
    "runId": "IG-20261027-02",
    "runDate": "2026-10-27",
@@ -375,6 +386,51 @@ window.IDEAS_DATA = {
    "status": "Exploring"
   },
   {
+   "id": "IG-20261028-01-01",
+   "rank": 1.0,
+   "name": "3D Print Farm for Niche Products",
+   "model": "Product (Etsy/DTC/B2B)",
+   "scores": {
+    "C1": 4.0,
+    "C2": 5.0,
+    "C3": 4.0,
+    "C4": 4.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 4.0,
+    "C8": 3.0
+   },
+   "score": 80.0,
+   "tier": "A",
+   "confidence": "Medium",
+   "oneLiner": "A cluster of 5–10 printers making a focused line of niche products (overlaps batch 2 #1 and #4).",
+   "category": "Making",
+   "categoryModel": "Making / Product (Etsy/DTC/B2B)",
+   "customer": "Etsy buyers, hobby niches, small businesses",
+   "problem": "Mass-market goods miss niche needs; small runs are uneconomical by injection molding.",
+   "whyNow": "'One of America's Largest 3D Print Farms Started in a Closet' (1.1M views) validates the batch 2 thesis.",
+   "signalLinks": [
+    {
+     "label": "One of America's Largest 3D Print Farms Started in a Closet",
+     "url": "https://www.youtube.com/watch?v=D_Tk9aoEBHM"
+    },
+    {
+     "label": "Don't Start an Etsy Shop Until You Watch This!",
+     "url": "https://www.youtube.com/watch?v=7b_58Bppsb4"
+    }
+   ],
+   "signals": "UpFlip: [One of America's Largest 3D Print Farms Started in a Closet](https://www.youtube.com/watch?v=D_Tk9aoEBHM) (1.1M views, 1 yr); [Don't Start an Etsy Shop Until You Watch This!](https://www.youtube.com/watch?v=7b_58Bppsb4) (1.8M views, 4 yr)",
+   "founderFit": "Founder A's engineering and audience (see batch 2 #1); garage-sized.",
+   "keyRisk": "Etsy saturation; product choice is everything; print failures.",
+   "firstStep": "See batch 2 #1: ship 3 audience-specific SKUs and track sell-through.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
    "id": "IG-20261027-01-06",
    "rank": 6.0,
    "name": "Maintenance Program Setup (CMMS-in-a-Box) for Small Plants",
@@ -551,6 +607,55 @@ window.IDEAS_DATA = {
    "status": "Exploring"
   },
   {
+   "id": "IG-20261028-01-02",
+   "rank": 2.0,
+   "name": "Smart Cooler Micro-Markets for Plants & Warehouses",
+   "model": "Asset-based route",
+   "scores": {
+    "C1": 4.0,
+    "C2": 5.0,
+    "C3": 4.0,
+    "C4": 3.0,
+    "C5": 3.0,
+    "C6": 4.0,
+    "C7": 4.0,
+    "C8": 3.0
+   },
+   "score": 77.0,
+   "tier": "A",
+   "confidence": "Medium",
+   "oneLiner": "Unattended card-only smart fridges and micro-markets with fresh food for shift workers at plants that lack a cafeteria.",
+   "category": "Vending",
+   "categoryModel": "Vending / Asset-based route",
+   "customer": "Small and mid manufacturers, warehouses, 24/7 operations",
+   "problem": "Night shifts have nowhere to eat; big vending operators ignore sites under 50 employees.",
+   "whyNow": "UpFlip's 'Death of Traditional Vending' video (2.0M views, $117 start) and the Academy bootcamp's '24/7 warehouse' testimonial point to unattended retail at industrial sites.",
+   "signalLinks": [
+    {
+     "label": "Is This the Death of Traditional Vending?! ($117 Startup)",
+     "url": "https://www.youtube.com/watch?v=zQf1ptrm7CA"
+    },
+    {
+     "label": "2-Day Workweek Earns $700K — Vending Machine Business",
+     "url": "https://www.youtube.com/watch?v=-s_Y-O1nosw"
+    },
+    {
+     "label": "UpFlip Academy — course list (32 owner-taught blueprints, student counts)",
+     "url": "https://www.upflip.com/academy"
+    }
+   ],
+   "signals": "UpFlip: [Is This the Death of Traditional Vending?! ($117 Startup)](https://www.youtube.com/watch?v=zQf1ptrm7CA) (2.0M views, 1 yr); [2-Day Workweek Earns $700K — Vending Machine Business](https://www.youtube.com/watch?v=-s_Y-O1nosw) (3.3M views, 3 yr); [UpFlip Academy — course list (32 owner-taught blueprints, student counts)](https://www.upflip.com/academy)",
+   "founderFit": "Joltek's plant network supplies locations; Founder A speaks the plant manager's language. A real channel edge.",
+   "keyRisk": "Smart coolers cost more than classic machines; fresh-food spoilage; needs volume of ~50+ people per shift.",
+   "firstStep": "Pitch 3 plants from Joltek contacts on a free-placement pilot; get a lease quote for one smart cooler.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
    "id": "IG-20261027-01-08",
    "rank": 8.0,
    "name": "Fractional Operations Lead for PM Firms",
@@ -633,6 +738,55 @@ window.IDEAS_DATA = {
    "runDate": "2026-10-27",
    "focus": "Hands-On Services & Local Making",
    "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-03",
+   "rank": 3.0,
+   "name": "Engineer & Automation Merch (Print-on-Demand)",
+   "model": "DTC (POD)",
+   "scores": {
+    "C1": 3.0,
+    "C2": 5.0,
+    "C3": 3.0,
+    "C4": 5.0,
+    "C5": 5.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 3.0
+   },
+   "score": 76.0,
+   "tier": "A",
+   "confidence": "High",
+   "oneLiner": "PLC, ladder-logic and engineering-humor apparel and desk gear via print-on-demand, promoted to an existing audience.",
+   "category": "E-commerce",
+   "categoryModel": "E-commerce / DTC (POD)",
+   "customer": "Founder A's ~200k engineering and automation audience",
+   "problem": "Niche communities want identity merch; generic POD stores fail without an audience.",
+   "whyNow": "'T-Shirt Business Hit $1M in Year One ($20 startup)' (735K) plus UpFlip's Print-on-Demand course: the key is having distribution.",
+   "signalLinks": [
+    {
+     "label": "His T-Shirt Business Hit $1M in Year One ($20 Startup)",
+     "url": "https://www.youtube.com/watch?v=aHUB5HH-BRk"
+    },
+    {
+     "label": "Secrets of a 7-Figure Screen Printing Business",
+     "url": "https://www.youtube.com/watch?v=CJRWc1ZPCpQ"
+    },
+    {
+     "label": "UpFlip Academy — course list (32 owner-taught blueprints, student counts)",
+     "url": "https://www.upflip.com/academy"
+    }
+   ],
+   "signals": "UpFlip: [His T-Shirt Business Hit $1M in Year One ($20 Startup)](https://www.youtube.com/watch?v=aHUB5HH-BRk) (735K views, 6 mo); [Secrets of a 7-Figure Screen Printing Business](https://www.youtube.com/watch?v=CJRWc1ZPCpQ) (1.4M views, 4 yr); [UpFlip Academy — course list (32 owner-taught blueprints, student counts)](https://www.upflip.com/academy)",
+   "founderFit": "Founder A owns the audience, which is the decisive advantage. No inventory, launchable this week.",
+   "keyRisk": "Merch revenue per follower is modest; it could dilute the brand; mostly Founder A's project, not joint.",
+   "firstStep": "Launch 5 designs on a POD store linked from the next SolisPLC post; measure conversion.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
    "stage": "Initial",
    "status": "Exploring"
   },
@@ -727,6 +881,108 @@ window.IDEAS_DATA = {
    "status": "Exploring"
   },
   {
+   "id": "IG-20261028-01-04",
+   "rank": 4.0,
+   "name": "Building Vending Micro-Route (Laundry Rooms & Lobbies)",
+   "model": "Asset-based route",
+   "scores": {
+    "C1": 4.0,
+    "C2": 5.0,
+    "C3": 3.0,
+    "C4": 4.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 3.0
+   },
+   "score": 75.0,
+   "tier": "A",
+   "confidence": "Medium",
+   "oneLiner": "Place 3–5 snack, drink and essentials machines in managed buildings (laundry rooms, lobbies), then expand to nearby workplaces.",
+   "category": "Vending",
+   "categoryModel": "Vending / Asset-based route",
+   "customer": "Residents of the partner's managed buildings; small offices and warehouses",
+   "problem": "Residents want convenience on site; landlords want an amenity at no cost.",
+   "whyNow": "Vending is UpFlip's single most-covered model: 3 viral videos plus an Academy bootcamp with student wins ('$150/week from two machines').",
+   "signalLinks": [
+    {
+     "label": "2-Day Workweek Earns $700K — Vending Machine Business",
+     "url": "https://www.youtube.com/watch?v=-s_Y-O1nosw"
+    },
+    {
+     "label": "Is This the Death of Traditional Vending?! ($117 Startup)",
+     "url": "https://www.youtube.com/watch?v=zQf1ptrm7CA"
+    },
+    {
+     "label": "His Vending Business Started in the Garage...Makes $480K/Year",
+     "url": "https://www.youtube.com/watch?v=Mg44Q6HDLww"
+    },
+    {
+     "label": "UpFlip Academy — course list (32 owner-taught blueprints, student counts)",
+     "url": "https://www.upflip.com/academy"
+    },
+    {
+     "label": "IBISWorld — Vending Machine Operators in Quebec",
+     "url": "https://www.ibisworld.com/canada/industry/quebec/vending-machine-operators/17313/"
+    },
+    {
+     "label": "Fintrakk — Vending machine business in Canada: cost & profits",
+     "url": "https://fintrakk.com/?p=15578"
+    }
+   ],
+   "signals": "UpFlip: [2-Day Workweek Earns $700K — Vending Machine Business](https://www.youtube.com/watch?v=-s_Y-O1nosw) (3.3M views, 3 yr); [Is This the Death of Traditional Vending?! ($117 Startup)](https://www.youtube.com/watch?v=zQf1ptrm7CA) (2.0M views, 1 yr); [His Vending Business Started in the Garage...Makes $480K/Year](https://www.youtube.com/watch?v=Mg44Q6HDLww) (357K views, 7 mo); [UpFlip Academy — course list (32 owner-taught blueprints, student counts)](https://www.upflip.com/academy); [IBISWorld — Vending Machine Operators in Quebec](https://www.ibisworld.com/canada/industry/quebec/vending-machine-operators/17313/); [Fintrakk — Vending machine business in Canada: cost & profits](https://fintrakk.com/?p=15578)",
+   "founderFit": "Founder B controls placement, the hardest part of vending, across 400 doors. Founder A handles telemetry and cashless payments.",
+   "keyRisk": "Low revenue per machine in residential buildings; theft or vandalism; conflict-of-interest optics with property owners need disclosure.",
+   "firstStep": "Ask 3 owners in the portfolio for consent; buy one refurbished combo machine (~$2–4k) and track weekly sales for 6 weeks.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-05",
+   "rank": 5.0,
+   "name": "Industrial Recruiting Agency",
+   "model": "Placement fees",
+   "scores": {
+    "C1": 4.0,
+    "C2": 5.0,
+    "C3": 4.0,
+    "C4": 3.0,
+    "C5": 3.0,
+    "C6": 3.0,
+    "C7": 4.0,
+    "C8": 3.0
+   },
+   "score": 75.0,
+   "tier": "A",
+   "confidence": "Medium",
+   "oneLiner": "Placement for automation, maintenance and controls roles (repeats batch 1 #2).",
+   "category": "Professional services",
+   "categoryModel": "Professional services / Placement fees",
+   "customer": "Manufacturers hiring technicians and engineers",
+   "problem": "Plants can't find technicians; fees are 15–25% of salary.",
+   "whyNow": "UpFlip Academy 'How to Start a Recruitment Agency' course; validates the batch 1 idea from a different source.",
+   "signalLinks": [
+    {
+     "label": "UpFlip Academy — course list (32 owner-taught blueprints, student counts)",
+     "url": "https://www.upflip.com/academy"
+    }
+   ],
+   "signals": "[UpFlip Academy — course list (32 owner-taught blueprints, student counts)](https://www.upflip.com/academy)",
+   "founderFit": "Founder A's audience is the candidate pool and Joltek is the client list: the strongest fit.",
+   "keyRisk": "Long sales cycles; overlaps batch 1's deeper analysis.",
+   "firstStep": "See batch 1 (IG-20261027-01-02).",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
    "id": "IG-20261027-02-07",
    "rank": 7.0,
    "name": "Window AC Install/Removal & Storage",
@@ -763,6 +1019,210 @@ window.IDEAS_DATA = {
    "status": "Exploring"
   },
   {
+   "id": "IG-20261028-01-06",
+   "rank": 6.0,
+   "name": "Turnover & Recurring Cleaning for Rentals",
+   "model": "Service (B2B + B2C)",
+   "scores": {
+    "C1": 4.0,
+    "C2": 5.0,
+    "C3": 3.0,
+    "C4": 4.0,
+    "C5": 5.0,
+    "C6": 2.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 74.0,
+   "tier": "B",
+   "confidence": "High",
+   "oneLiner": "Move-out and turnover cleaning for the partner's portfolio first, then recurring residential cleaning with hired cleaners.",
+   "category": "Home services",
+   "categoryModel": "Home services / Service (B2B + B2C)",
+   "customer": "Property managers, landlords, Airbnb/mid-term hosts, then homeowners",
+   "problem": "Turnovers stall leasing; landlords can't find reliable cleaners on short notice.",
+   "whyNow": "Cleaning is UpFlip's #1 Academy course (2,356 students) with 8+ videos; the 'laptop' model shows owners managing remotely.",
+   "signalLinks": [
+    {
+     "label": "Starting a $120K/Month Cleaning Business From Scratch",
+     "url": "https://www.youtube.com/watch?v=d4Iip7BHXwg"
+    },
+    {
+     "label": "How He Makes $250K/Year Cleaning Homes... From His Laptop",
+     "url": "https://www.youtube.com/watch?v=PUIZGbefocg"
+    },
+    {
+     "label": "UpFlip Academy — course list (32 owner-taught blueprints, student counts)",
+     "url": "https://www.upflip.com/academy"
+    }
+   ],
+   "signals": "UpFlip: [Starting a $120K/Month Cleaning Business From Scratch](https://www.youtube.com/watch?v=d4Iip7BHXwg) (1.2M views, 5 yr); [How He Makes $250K/Year Cleaning Homes... From His Laptop](https://www.youtube.com/watch?v=PUIZGbefocg) (62K views, 1 yr); [UpFlip Academy — course list (32 owner-taught blueprints, student counts)](https://www.upflip.com/academy)",
+   "founderFit": "Founder B is literally the first customer, with steady turnover volume; Founder A runs scheduling and quality systems.",
+   "keyRisk": "Hiring and retaining cleaners; low barriers mean price pressure; avoid self-dealing with owner clients.",
+   "firstStep": "Price 10 turnovers in the portfolio at market rate with 1 subcontracted cleaner; track hours per unit.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-07",
+   "rank": 7.0,
+   "name": "Gourmet Mushroom Micro-Farm (Garage/Basement)",
+   "model": "Product (B2B + farmers' markets)",
+   "scores": {
+    "C1": 4.0,
+    "C2": 4.0,
+    "C3": 3.0,
+    "C4": 4.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 4.0,
+    "C8": 3.0
+   },
+   "score": 74.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "Grow oyster, lion's mane and other gourmet mushrooms in a 100–300 sq ft grow room and sell fresh to chefs and markets.",
+   "category": "Urban agriculture",
+   "categoryModel": "Urban agriculture / Product (B2B + farmers' markets)",
+   "customer": "Montreal/Laval restaurants, épiceries fines, farmers' markets",
+   "problem": "Chefs want fresh, local specialty mushrooms; imported product arrives old and supply is thin.",
+   "whyNow": "The newest UpFlip mushroom video passed 1.2M views in ~2 months, the fastest-rising business on the channel. Montreal already supports urban growers (Les 400 Pieds, Full Pin) and Quebec-grown oysters reached IGA.",
+   "signalLinks": [
+    {
+     "label": "How to Start a $10K/Month Mushroom Business from Home",
+     "url": "https://www.youtube.com/watch?v=6WS5C9u-ak0"
+    },
+    {
+     "label": "How Much Can You Make Growing Mushrooms?!",
+     "url": "https://www.youtube.com/watch?v=JBvXkwtBWqw"
+    },
+    {
+     "label": "The Main — Les 400 Pieds de Champignon (Montreal urban mushroom farm)",
+     "url": "https://www.themain.com/place/les-400-pieds-de-champignon"
+    },
+    {
+     "label": "Vertical Farm Daily — Quebec-grown oyster mushrooms in IGA",
+     "url": "https://www.verticalfarmdaily.com/article/9432694/can-winter-mushroom-introduced-to-quebec-supermarkets/"
+    }
+   ],
+   "signals": "UpFlip: [How to Start a $10K/Month Mushroom Business from Home](https://www.youtube.com/watch?v=6WS5C9u-ak0) (1.2M views, 2 mo); [How Much Can You Make Growing Mushrooms?!](https://www.youtube.com/watch?v=JBvXkwtBWqw) (1.8M views, 2 yr); [The Main — Les 400 Pieds de Champignon (Montreal urban mushroom farm)](https://www.themain.com/place/les-400-pieds-de-champignon); [Vertical Farm Daily — Quebec-grown oyster mushrooms in IGA](https://www.verticalfarmdaily.com/article/9432694/can-winter-mushroom-introduced-to-quebec-supermarkets/)",
+   "founderFit": "Founder A can automate humidity, CO₂ and temperature control: real process-control skills apply. Low capital, compatible with nights and weekends (harvests are daily, though).",
+   "keyRisk": "Contamination and daily harvest discipline; local competitors already serve top kitchens; selling fresh food needs a MAPAQ permit. One older report cites ~$25/kg to restaurants, so margins depend on yield.",
+   "firstStep": "Grow 3 oyster test batches from a ready-made substrate in a tent; take samples to 5 restaurants and price per kg.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-08",
+   "rank": 8.0,
+   "name": "Pressure Washing & Exterior Cleaning",
+   "model": "Seasonal service",
+   "scores": {
+    "C1": 4.0,
+    "C2": 4.0,
+    "C3": 4.0,
+    "C4": 4.0,
+    "C5": 5.0,
+    "C6": 2.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 74.0,
+   "tier": "B",
+   "confidence": "High",
+   "oneLiner": "Soft-wash siding, driveways, decks and storefronts from April to October, with door hangers and repeat yearly plans.",
+   "category": "Home services",
+   "categoryModel": "Home services / Seasonal service",
+   "customer": "Homeowners, plex owners, small commercial lots",
+   "problem": "Salt and grime build up over Quebec winters; owners want curb appeal before selling or renting.",
+   "whyNow": "Six pressure-washing videos above 800K views, including '$2M/Year While Working 9-5', plus a top Academy blueprint with an '$11k first month' testimonial.",
+   "signalLinks": [
+    {
+     "label": "21 Year Old Starts a $120,000 Monthly Pressure Washing Business",
+     "url": "https://www.youtube.com/watch?v=H99wDmpnE_g"
+    },
+    {
+     "label": "$200/Hour Pressure Washing Business",
+     "url": "https://www.youtube.com/watch?v=Ny0b_YEfAjA"
+    },
+    {
+     "label": "Built $2M/Year Pressure Washing Business (While Working 9-5!)",
+     "url": "https://www.youtube.com/watch?v=hDVizUeYuIU"
+    },
+    {
+     "label": "UpFlip Academy — course list (32 owner-taught blueprints, student counts)",
+     "url": "https://www.upflip.com/academy"
+    }
+   ],
+   "signals": "UpFlip: [21 Year Old Starts a $120,000 Monthly Pressure Washing Business](https://www.youtube.com/watch?v=H99wDmpnE_g) (2.0M views, 5 yr); [$200/Hour Pressure Washing Business](https://www.youtube.com/watch?v=Ny0b_YEfAjA) (1.2M views, 5 yr); [Built $2M/Year Pressure Washing Business (While Working 9-5!)](https://www.youtube.com/watch?v=hDVizUeYuIU) (810K views, 2 yr); [UpFlip Academy — course list (32 owner-taught blueprints, student counts)](https://www.upflip.com/academy)",
+   "founderFit": "The partner's portfolio provides steady building jobs; it pairs with batch 2's seasonal route (winter = lights or Tempo).",
+   "keyRisk": "Seasonal (about 6 months); water and chemical runoff rules; insurance needed.",
+   "firstStep": "Rent a 4 GPM unit for one weekend; wash 3 buildings in the portfolio for before-and-after content.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-09",
+   "rank": 9.0,
+   "name": "Mobile Detailing + Ceramic Coating",
+   "model": "Service",
+   "scores": {
+    "C1": 4.0,
+    "C2": 3.0,
+    "C3": 4.0,
+    "C4": 5.0,
+    "C5": 5.0,
+    "C6": 2.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 74.0,
+   "tier": "B",
+   "confidence": "High",
+   "oneLiner": "Mobile interior/exterior detailing with ceramic-coating packages as the high-ticket upsell.",
+   "category": "Auto services",
+   "categoryModel": "Auto services / Service",
+   "customer": "Car owners in Laval/North Shore; dealerships; fleets",
+   "problem": "Owners lack time and space; Quebec road salt destroys finishes, so protection sells.",
+   "whyNow": "Detailing is one of UpFlip's most-repeated proven models (3.4M + 2.2M views), with $500 starts; the 2026 video pitches newer, higher-margin protection formats over plain washing.",
+   "signalLinks": [
+    {
+     "label": "22 Year-Old Starts a $50K/Month Mobile Car Detailing Business",
+     "url": "https://www.youtube.com/watch?v=3jIWyxNjtpU"
+    },
+    {
+     "label": "Starting a Mobile Car Detailing Business with $500",
+     "url": "https://www.youtube.com/watch?v=OPGT6jXRZ5Y"
+    },
+    {
+     "label": "Forget Traditional Car Detailing (This is So Much Better)",
+     "url": "https://www.youtube.com/watch?v=0SB3OUrElys"
+    }
+   ],
+   "signals": "UpFlip: [22 Year-Old Starts a $50K/Month Mobile Car Detailing Business](https://www.youtube.com/watch?v=3jIWyxNjtpU) (3.4M views, 4 yr); [Starting a Mobile Car Detailing Business with $500](https://www.youtube.com/watch?v=OPGT6jXRZ5Y) (2.2M views, 4 yr); [Forget Traditional Car Detailing (This is So Much Better)](https://www.youtube.com/watch?v=0SB3OUrElys) (157K views, 1 mo)",
+   "founderFit": "Pure execution; both founders can sell to their networks. Founder B's tenants and owners are a captive first market.",
+   "keyRisk": "Crowded, low-barrier market; winter limits outdoor work in Quebec (needs a rented bay or garage Nov–Mar); water-runoff bylaws.",
+   "firstStep": "Detail 5 cars for friends and family at cost for photos and reviews; quote ceramic packages to 2 used-car dealers.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
    "id": "IG-20261027-02-08",
    "rank": 8.0,
    "name": "Smart-Home & Home Network Setup (Non-Alarm Scope)",
@@ -795,6 +1255,51 @@ window.IDEAS_DATA = {
    "runDate": "2026-10-27",
    "focus": "Hands-On Services & Local Making",
    "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-10",
+   "rank": 10.0,
+   "name": "Junk Removal & Move-Out Clean-Outs",
+   "model": "Service",
+   "scores": {
+    "C1": 4.0,
+    "C2": 4.0,
+    "C3": 4.0,
+    "C4": 3.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 4.0,
+    "C8": 2.0
+   },
+   "score": 73.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "Truck-and-trailer junk hauling built around Quebec's July 1 moving day and the partner's turnover pipeline.",
+   "category": "Home services",
+   "categoryModel": "Home services / Service",
+   "customer": "Landlords, tenants on moving day, estate clean-outs, renovators",
+   "problem": "July 1 floods curbs with abandoned furniture; landlords pay to clear units fast.",
+   "whyNow": "UpFlip's 'Ugly Truth of Junk Removal' plus an Academy 'Moving & Junk Removal' blueprint. Quebec's synchronized moving day is a unique demand spike.",
+   "signalLinks": [
+    {
+     "label": "From Homeless to $50k/Month: The Ugly Truth of Junk Removal",
+     "url": "https://www.youtube.com/watch?v=zJceNwFmrHA"
+    },
+    {
+     "label": "UpFlip Academy — course list (32 owner-taught blueprints, student counts)",
+     "url": "https://www.upflip.com/academy"
+    }
+   ],
+   "signals": "UpFlip: [From Homeless to $50k/Month: The Ugly Truth of Junk Removal](https://www.youtube.com/watch?v=zJceNwFmrHA) (298K views, 9 mo); [UpFlip Academy — course list (32 owner-taught blueprints, student counts)](https://www.upflip.com/academy)",
+   "founderFit": "Deal flow from 400 doors; Founder A can optimize donation and recycling routing for margin.",
+   "keyRisk": "Dump fees and labor; truck or trailer needed (lease); heavy physical work.",
+   "firstStep": "Rent a trailer for July 1 week 2027 (or the next turnover wave) and quote landlords in advance.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
    "stage": "Initial",
    "status": "Exploring"
   },
@@ -840,6 +1345,100 @@ window.IDEAS_DATA = {
    "runDate": "2026-10-27",
    "focus": "Real Estate x Ops-Tech",
    "sourceFile": "02. Ideas/01. Initial/IG-20261027-01 - Idea List - Real Estate x Ops-Tech.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-11",
+   "rank": 11.0,
+   "name": "Outdoor RV, Boat & Trailer Storage on Leased Land",
+   "model": "Land rental",
+   "scores": {
+    "C1": 4.0,
+    "C2": 4.0,
+    "C3": 4.0,
+    "C4": 3.0,
+    "C5": 3.0,
+    "C6": 3.0,
+    "C7": 4.0,
+    "C8": 3.0
+   },
+   "score": 72.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "Lease or partner on an unused, zoning-compatible lot; gravel and fence it; rent spots monthly, with winter storage as the core season.",
+   "category": "Real estate",
+   "categoryModel": "Real estate / Land rental",
+   "customer": "RV, boat, trailer and contractor-equipment owners in Laval/North Shore",
+   "problem": "Quebec owners can't store RVs and boats at home (bylaws); indoor storage fills up.",
+   "whyNow": "'Forget Storage Units. He Rents Out Empty Dirt' is UpFlip's fastest-growing recent upload (644K views in ~1 month). Laval outdoor spots list at roughly $63–300/month.",
+   "signalLinks": [
+    {
+     "label": "Forget Storage Units. He Rents Out Empty Dirt Instead?!",
+     "url": "https://www.youtube.com/watch?v=EHiyxR6TwWE"
+    },
+    {
+     "label": "Parksy — Laval storage prices (car/RV/boat)",
+     "url": "https://www.parksy.com/storage/ca/qc/laval"
+    },
+    {
+     "label": "Parksy — Saint-Vincent-de-Paul RV storage ($150–300/mo)",
+     "url": "https://www.parksy.com/storage/ca/qc/saint-vincent-de-paul"
+    }
+   ],
+   "signals": "UpFlip: [Forget Storage Units. He Rents Out Empty Dirt Instead?!](https://www.youtube.com/watch?v=EHiyxR6TwWE) (644K views, 1 mo); [Parksy — Laval storage prices (car/RV/boat)](https://www.parksy.com/storage/ca/qc/laval); [Parksy — Saint-Vincent-de-Paul RV storage ($150–300/mo)](https://www.parksy.com/storage/ca/qc/saint-vincent-de-paul)",
+   "founderFit": "Founder B can source land, check zoning and handle tenant contracts: core skills. Founder A adds gate and camera automation.",
+   "keyRisk": "Zoning (most residential or agricultural land is excluded; CPTAQ protects farmland); lease plus gravel and fencing may exceed $10k; theft liability.",
+   "firstStep": "List 5 candidate lots (industrial edge, church or commercial parking); call Laval urbanisme about permitted use; pre-sell 10 spots on Marketplace.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-12",
+   "rank": 12.0,
+   "name": "Laundry Pickup & Delivery (Wash-and-Fold)",
+   "model": "Subscription service",
+   "scores": {
+    "C1": 4.0,
+    "C2": 4.0,
+    "C3": 3.0,
+    "C4": 4.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 71.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "App-booked pickup, wash, fold and return, using partner laundromats' capacity instead of buying machines.",
+   "category": "Home services",
+   "categoryModel": "Home services / Subscription service",
+   "customer": "Busy households, tenants without in-unit machines, Airbnb hosts",
+   "problem": "Plex tenants with shared or no laundry lose hours each week; hosts need fast linen turnaround.",
+   "whyNow": "'Forget Self-Serve Laundromats' (2.8M views) shows pickup and delivery as the growth layer on top of laundromats. UpFlip also sells an 'Acquire Your First Laundromat' course.",
+   "signalLinks": [
+    {
+     "label": "Forget Self-Serve Laundromats! (This is the Future)",
+     "url": "https://www.youtube.com/watch?v=4TXnnIDsqas"
+    },
+    {
+     "label": "UpFlip Academy — course list (32 owner-taught blueprints, student counts)",
+     "url": "https://www.upflip.com/academy"
+    }
+   ],
+   "signals": "UpFlip: [Forget Self-Serve Laundromats! (This is the Future)](https://www.youtube.com/watch?v=4TXnnIDsqas) (2.8M views, 2 yr); [UpFlip Academy — course list (32 owner-taught blueprints, student counts)](https://www.upflip.com/academy)",
+   "founderFit": "Founder B's tenant base is the launch market; Founder A builds routing and booking.",
+   "keyRisk": "Thin margins until route density; labor-heavy; driver time on nights and weekends.",
+   "firstStep": "Run a 2-week trial for 20 tenants: $/lb pricing through a laundromat partner; measure retention.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
    "stage": "Initial",
    "status": "Exploring"
   },
@@ -1178,6 +1777,47 @@ window.IDEAS_DATA = {
    "status": "Exploring"
   },
   {
+   "id": "IG-20261028-01-13",
+   "rank": 13.0,
+   "name": "Local-Services Lead Gen (Rank & Rent)",
+   "model": "Lead generation",
+   "scores": {
+    "C1": 3.0,
+    "C2": 4.0,
+    "C3": 4.0,
+    "C4": 4.0,
+    "C5": 3.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 3.0
+   },
+   "score": 69.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "Build ranking local sites and Google Local Services funnels for trades and sell the leads to contractors.",
+   "category": "Digital",
+   "categoryModel": "Digital / Lead generation",
+   "customer": "Local contractors (roofers, cleaners, pressure washers)",
+   "problem": "Trades want leads but can't do SEO; most local niches in French-language Quebec are under-optimized.",
+   "whyNow": "UpFlip Academy's 'Remote Local Blueprint', 'AI SEO Mastery' and 'Google LSA Mastery' courses: the meta-model behind many of its home-service businesses.",
+   "signalLinks": [
+    {
+     "label": "UpFlip Academy — course list (32 owner-taught blueprints, student counts)",
+     "url": "https://www.upflip.com/academy"
+    }
+   ],
+   "signals": "[UpFlip Academy — course list (32 owner-taught blueprints, student counts)](https://www.upflip.com/academy)",
+   "founderFit": "Founder A already runs a content and SEO business; strong skill transfer.",
+   "keyRisk": "Google algorithm risk; contractors churn; bilingual content needed.",
+   "firstStep": "Build one Laval pressure-washing site; sell leads to 2 contractors.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
    "id": "IG-20261027-01-15",
    "rank": 15.0,
    "name": "Make-Ready Turn Coordination Service",
@@ -1427,6 +2067,96 @@ window.IDEAS_DATA = {
    "status": "Exploring"
   },
   {
+   "id": "IG-20261028-01-14",
+   "rank": 14.0,
+   "name": "Rental Make-Ready Handyman Service",
+   "model": "Service",
+   "scores": {
+    "C1": 4.0,
+    "C2": 4.0,
+    "C3": 3.0,
+    "C4": 3.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 68.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "Small repairs, patching, fixture swaps and punch lists between tenants, staying under RBQ-licensed work thresholds.",
+   "category": "Home services",
+   "categoryModel": "Home services / Service",
+   "customer": "Landlords and property managers",
+   "problem": "Small jobs are too small for contractors and too urgent to wait.",
+   "whyNow": "'Handyman Makes $1,000 Per Day' (2.0M views); UpFlip's painting and subcontractor courses.",
+   "signalLinks": [
+    {
+     "label": "Handyman Makes $1,000 Per Day",
+     "url": "https://www.youtube.com/watch?v=leUta_q_MPQ"
+    },
+    {
+     "label": "UpFlip Academy — course list (32 owner-taught blueprints, student counts)",
+     "url": "https://www.upflip.com/academy"
+    },
+    {
+     "label": "RBQ — Work requiring a licence",
+     "url": "https://www.rbq.gouv.qc.ca/en/licence/knowing-if-a-licence-is-required/work-requiring-a-licence/"
+    }
+   ],
+   "signals": "UpFlip: [Handyman Makes $1,000 Per Day](https://www.youtube.com/watch?v=leUta_q_MPQ) (2.0M views, 4 yr); [UpFlip Academy — course list (32 owner-taught blueprints, student counts)](https://www.upflip.com/academy); [RBQ — Work requiring a licence](https://www.rbq.gouv.qc.ca/en/licence/knowing-if-a-licence-is-required/work-requiring-a-licence/)",
+   "founderFit": "Built-in work orders from the partner; Founder A is technically capable.",
+   "keyRisk": "The RBQ licence line limits scope; electrical and plumbing need licensed trades; it is a labor-for-hours trap unless you hire.",
+   "firstStep": "Confirm the RBQ scope; take 10 make-ready tickets from the portfolio priced per job.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-15",
+   "rank": 15.0,
+   "name": "Pet Waste Removal Route",
+   "model": "Subscription service",
+   "scores": {
+    "C1": 3.0,
+    "C2": 2.0,
+    "C3": 3.0,
+    "C4": 5.0,
+    "C5": 5.0,
+    "C6": 4.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 68.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Weekly yard scooping as a subscription; a dull but sticky, recurring service.",
+   "category": "Home services",
+   "categoryModel": "Home services / Subscription service",
+   "customer": "Dog owners with yards; condo associations",
+   "problem": "Owners hate the chore; spring thaw reveals a winter's worth.",
+   "whyNow": "UpFlip's 'Poop Scoop Millionaire' Academy course; low startup, high recurrence.",
+   "signalLinks": [
+    {
+     "label": "UpFlip Academy — course list (32 owner-taught blueprints, student counts)",
+     "url": "https://www.upflip.com/academy"
+    }
+   ],
+   "signals": "[UpFlip Academy — course list (32 owner-taught blueprints, student counts)](https://www.upflip.com/academy)",
+   "founderFit": "Simple ops and route software; low fit with either founder's skills.",
+   "keyRisk": "Snow cover makes it seasonal in Quebec; low ticket; image.",
+   "firstStep": "Run a spring-thaw clean-up promo in 2 Laval neighborhoods.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
    "id": "IG-20261027-01-18",
    "rank": 18.0,
    "name": "Move-In/Move-Out Inspection with AI Photo Comparison",
@@ -1549,6 +2279,51 @@ window.IDEAS_DATA = {
    "status": "Exploring"
   },
   {
+   "id": "IG-20261028-01-16",
+   "rank": 16.0,
+   "name": "Subcontracted Home-Services Brand",
+   "model": "Marketing + dispatch",
+   "scores": {
+    "C1": 3.0,
+    "C2": 4.0,
+    "C3": 3.0,
+    "C4": 4.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 67.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "Own the brand, sales and scheduling; subcontract the work to vetted crews (the 'paid to think' landscaping model).",
+   "category": "Home services",
+   "categoryModel": "Home services / Marketing + dispatch",
+   "customer": "Homeowners and landlords",
+   "problem": "Good tradespeople hate selling; customers want one reliable brand.",
+   "whyNow": "'He Gets Paid $3.5M/Year to Think. The Landscapers Do the Work' plus the Academy's 'Subcontractor Startup' course.",
+   "signalLinks": [
+    {
+     "label": "He Gets Paid $3.5M/Year to Think. The Landscapers Do the Work.",
+     "url": "https://www.youtube.com/watch?v=A8gi3G-B4mg"
+    },
+    {
+     "label": "UpFlip Academy — course list (32 owner-taught blueprints, student counts)",
+     "url": "https://www.upflip.com/academy"
+    }
+   ],
+   "signals": "UpFlip: [He Gets Paid $3.5M/Year to Think. The Landscapers Do the Work.](https://www.youtube.com/watch?v=A8gi3G-B4mg) (117K views, 6 mo); [UpFlip Academy — course list (32 owner-taught blueprints, student counts)](https://www.upflip.com/academy)",
+   "founderFit": "Fits a side business: the founders do sales and systems, not labor. Founder B brings demand.",
+   "keyRisk": "Quality control; subcontractor licensing (RBQ) responsibility; thin margins.",
+   "firstStep": "Pick one service (e.g., pressure washing); sign 2 subcontractors; sell 10 jobs from the portfolio.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
    "id": "IG-20261027-01-20",
    "rank": 20.0,
    "name": "EV Charging Retrofit Broker for Multifamily",
@@ -1667,6 +2442,96 @@ window.IDEAS_DATA = {
    "runDate": "2026-10-27",
    "focus": "Hands-On Services & Local Making",
    "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-17",
+   "rank": 17.0,
+   "name": "Mid-Term Furnished Rentals (30+ days)",
+   "model": "Rental arbitrage / management",
+   "scores": {
+    "C1": 3.0,
+    "C2": 5.0,
+    "C3": 3.0,
+    "C4": 3.0,
+    "C5": 3.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 65.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "Furnish and manage 30+ day rentals, avoiding Quebec's short-term (<31 day) CITQ registration and Montreal restrictions.",
+   "category": "Real estate",
+   "categoryModel": "Real estate / Rental arbitrage / management",
+   "customer": "Travel nurses, contractors, relocating workers",
+   "problem": "Mobile workers need furnished monthly housing; hotels are expensive.",
+   "whyNow": "UpFlip Academy has Mid-Term Rental and Fractional Hosting courses; Airbnb business videos draw 786K views.",
+   "signalLinks": [
+    {
+     "label": "How to Make $3M/Year with Airbnb Business",
+     "url": "https://www.youtube.com/watch?v=6m-MosXlpOE"
+    },
+    {
+     "label": "The Most Overlooked Rental Property Business You Can Start With $0",
+     "url": "https://www.youtube.com/watch?v=ZfN_OytY-vk"
+    },
+    {
+     "label": "UpFlip Academy — course list (32 owner-taught blueprints, student counts)",
+     "url": "https://www.upflip.com/academy"
+    }
+   ],
+   "signals": "UpFlip: [How to Make $3M/Year with Airbnb Business](https://www.youtube.com/watch?v=6m-MosXlpOE) (786K views, 2 yr); [The Most Overlooked Rental Property Business You Can Start With $0](https://www.youtube.com/watch?v=ZfN_OytY-vk) (379K views, 1 yr); [UpFlip Academy — course list (32 owner-taught blueprints, student counts)](https://www.upflip.com/academy)",
+   "founderFit": "Founder B's core competence plus inventory access. Strong fit.",
+   "keyRisk": "Landlord consent and lease rules (TAL); furnishing capital; vacancy risk.",
+   "firstStep": "Furnish one portfolio unit with owner consent; list it on a mid-term platform; track occupancy for 3 months.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-18",
+   "rank": 18.0,
+   "name": "Furniture Flipping & Refinishing",
+   "model": "Trading",
+   "scores": {
+    "C1": 3.0,
+    "C2": 3.0,
+    "C3": 3.0,
+    "C4": 4.0,
+    "C5": 5.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 1.0
+   },
+   "score": 65.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "Buy curbside and Marketplace furniture, refinish it, resell it, and tap July 1 abandoned furniture.",
+   "category": "Reuse",
+   "categoryModel": "Reuse / trading / Trading",
+   "customer": "Marketplace buyers; renters furnishing on a budget",
+   "problem": "Moving day floods supply; buyers want affordable character pieces.",
+   "whyNow": "'Mom Makes $192K/Year Fixing Up Old Furniture' (251K views, 4 months).",
+   "signalLinks": [
+    {
+     "label": "This Mom Makes $192K/Year Fixing Up Old Furniture",
+     "url": "https://www.youtube.com/watch?v=VhBY4vbtSxg"
+    }
+   ],
+   "signals": "UpFlip: [This Mom Makes $192K/Year Fixing Up Old Furniture](https://www.youtube.com/watch?v=VhBY4vbtSxg) (251K views, 4 mo)",
+   "founderFit": "Supply from building turnovers; otherwise low edge.",
+   "keyRisk": "Space, time per piece; low scalability.",
+   "firstStep": "Flip 5 pieces after the next turnover wave; log hours versus profit.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
    "stage": "Initial",
    "status": "Exploring"
   },
@@ -1830,6 +2695,141 @@ window.IDEAS_DATA = {
    "runDate": "2026-10-27",
    "focus": "Hands-On Services & Local Making",
    "sourceFile": "02. Ideas/01. Initial/IG-20261027-02 - Idea List - Hands-On Services and Local Making.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-19",
+   "rank": 19.0,
+   "name": "Epoxy & Polyaspartic Garage Floors",
+   "model": "Project service",
+   "scores": {
+    "C1": 3.0,
+    "C2": 3.0,
+    "C3": 4.0,
+    "C4": 3.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 64.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "Flake and metallic coating of garage, basement and shop floors.",
+   "category": "Home services",
+   "categoryModel": "Home services / Project service",
+   "customer": "Homeowners, condo garages, small shops",
+   "problem": "Concrete in Quebec garages takes a beating from salt; owners want durable, cleanable floors.",
+   "whyNow": "Two epoxy videos (1.4M and 784K views) claiming $60K–500K/month. Overlaps batch 2's epoxy idea, and the high views reinforce it.",
+   "signalLinks": [
+    {
+     "label": "Starting a $500K/Month Epoxy Flooring Business",
+     "url": "https://www.youtube.com/watch?v=q6mghjqijuU"
+    },
+    {
+     "label": "How He Started a $60K/Month Epoxy Flooring Business",
+     "url": "https://www.youtube.com/watch?v=tU33b8tg4bc"
+    }
+   ],
+   "signals": "UpFlip: [Starting a $500K/Month Epoxy Flooring Business](https://www.youtube.com/watch?v=q6mghjqijuU) (1.4M views, 3 yr); [How He Started a $60K/Month Epoxy Flooring Business](https://www.youtube.com/watch?v=tU33b8tg4bc) (784K views, 4 yr)",
+   "founderFit": "Hands-on, high ticket; Founder A's plant floor-coating knowledge transfers.",
+   "keyRisk": "Install mistakes are costly; cold-season curing limits; product cost.",
+   "firstStep": "Coat one garage at cost for a portfolio; get quotes from 2 suppliers.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-20",
+   "rank": 20.0,
+   "name": "Microgreens for Restaurants",
+   "model": "Product (B2B)",
+   "scores": {
+    "C1": 3.0,
+    "C2": 3.0,
+    "C3": 3.0,
+    "C4": 4.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 64.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "Indoor shelf-grown microgreens delivered weekly to chefs on standing orders.",
+   "category": "Urban agriculture",
+   "categoryModel": "Urban agriculture / Product (B2B)",
+   "customer": "Restaurants, cafés, épiceries",
+   "problem": "Chefs want fresh garnish year-round; it ships poorly over distance.",
+   "whyNow": "UpFlip's '$50 and NO Land' home-farm video and the backyard-farming cluster (3.7M); a classic low-capital indoor crop.",
+   "signalLinks": [
+    {
+     "label": "How to Start a Farm Business from Your Home with $50...and NO Land",
+     "url": "https://www.youtube.com/watch?v=fKmn9EB8LkY"
+    },
+    {
+     "label": "NASA Secret Could Turn Your Backyard Into $10K/Month",
+     "url": "https://www.youtube.com/watch?v=rHMvDy0_MhA"
+    }
+   ],
+   "signals": "UpFlip: [How to Start a Farm Business from Your Home with $50...and NO Land](https://www.youtube.com/watch?v=fKmn9EB8LkY) (93K views, 8 mo); [NASA Secret Could Turn Your Backyard Into $10K/Month](https://www.youtube.com/watch?v=rHMvDy0_MhA) (3.7M views, 1 yr)",
+   "founderFit": "Founder A automates lighting and irrigation; low capital.",
+   "keyRisk": "Small ticket per restaurant; delivery overhead; competition.",
+   "firstStep": "Grow 4 varieties for 3 weeks; sample to 10 chefs.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-21",
+   "rank": 21.0,
+   "name": "Screen Printing & Embroidery for Trades and Local Businesses",
+   "model": "B2B custom products",
+   "scores": {
+    "C1": 3.0,
+    "C2": 3.0,
+    "C3": 3.0,
+    "C4": 4.0,
+    "C5": 4.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 64.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "Branded uniforms and merch for local businesses, starting with embroidery and DTF transfers.",
+   "category": "Making",
+   "categoryModel": "Making / B2B custom products",
+   "customer": "Contractors, property managers, plants, teams",
+   "problem": "Every business needs branded workwear; local shops are backlogged.",
+   "whyNow": "'Secrets of a 7-Figure Screen Printing Business' (1.4M) and a $2M/year embroidery business video.",
+   "signalLinks": [
+    {
+     "label": "Secrets of a 7-Figure Screen Printing Business",
+     "url": "https://www.youtube.com/watch?v=CJRWc1ZPCpQ"
+    },
+    {
+     "label": "Day in the Life of a $2M/Year Embroidery Business",
+     "url": "https://www.youtube.com/watch?v=8PpLqTIUf6g"
+    }
+   ],
+   "signals": "UpFlip: [Secrets of a 7-Figure Screen Printing Business](https://www.youtube.com/watch?v=CJRWc1ZPCpQ) (1.4M views, 4 yr); [Day in the Life of a $2M/Year Embroidery Business](https://www.youtube.com/watch?v=8PpLqTIUf6g) (55K views, 8 mo)",
+   "founderFit": "B2B sales through both founders' networks (trades, plants).",
+   "keyRisk": "Equipment ~$5–10k for embroidery; production time; competition.",
+   "firstStep": "Outsource the first 5 orders to a blank supplier; sell to the partner's contractors.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
    "stage": "Initial",
    "status": "Exploring"
   },
@@ -2109,6 +3109,55 @@ window.IDEAS_DATA = {
    "status": "Exploring"
   },
   {
+   "id": "IG-20261028-01-22",
+   "rank": 22.0,
+   "name": "CNC & Laser Custom Wood Products",
+   "model": "Product + custom orders",
+   "scores": {
+    "C1": 3.0,
+    "C2": 4.0,
+    "C3": 3.0,
+    "C4": 3.0,
+    "C5": 3.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 62.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "A desktop CNC or laser making signs, engraved gifts and furniture components, plus custom corporate orders.",
+   "category": "Making",
+   "categoryModel": "Making / Product + custom orders",
+   "customer": "Homeowners, corporate gifting, real-estate closing gifts",
+   "problem": "Personalized goods command premiums; local makers are scarce.",
+   "whyNow": "Woodworking is a big UpFlip cluster (Blacktail Studio 2.9M, '$2,000/Day' 905K) plus a CNC Woodworking Academy course.",
+   "signalLinks": [
+    {
+     "label": "How Blacktail Studio Makes $15K/Month Woodworking",
+     "url": "https://www.youtube.com/watch?v=AEFC884nzv0"
+    },
+    {
+     "label": "Make $2,000/Day with a Woodworking Business",
+     "url": "https://www.youtube.com/watch?v=lsQfMy9KUqE"
+    },
+    {
+     "label": "UpFlip Academy — course list (32 owner-taught blueprints, student counts)",
+     "url": "https://www.upflip.com/academy"
+    }
+   ],
+   "signals": "UpFlip: [How Blacktail Studio Makes $15K/Month Woodworking](https://www.youtube.com/watch?v=AEFC884nzv0) (2.9M views, 4 yr); [Make $2,000/Day with a Woodworking Business](https://www.youtube.com/watch?v=lsQfMy9KUqE) (905K views, 3 yr); [UpFlip Academy — course list (32 owner-taught blueprints, student counts)](https://www.upflip.com/academy)",
+   "founderFit": "Founder A's CNC and automation fluency; Founder B's real-estate closing-gift channel.",
+   "keyRisk": "Shop space and dust; marketing needed; equipment ~$3–8k.",
+   "firstStep": "Make 10 engraved closing gifts for the partner's brokerage contacts; price per unit.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
    "id": "IG-20261027-01-23",
    "rank": 23.0,
    "name": "HVAC/Boiler Preventive Maintenance Subscription",
@@ -2232,6 +3281,96 @@ window.IDEAS_DATA = {
    "status": "Exploring"
   },
   {
+   "id": "IG-20261028-01-23",
+   "rank": 23.0,
+   "name": "Backyard Aquaculture / Aquaponics",
+   "model": "Product",
+   "scores": {
+    "C1": 3.0,
+    "C2": 4.0,
+    "C3": 3.0,
+    "C4": 2.0,
+    "C5": 2.0,
+    "C6": 4.0,
+    "C7": 3.0,
+    "C8": 3.0
+   },
+   "score": 60.0,
+   "tier": "B",
+   "confidence": "Low",
+   "oneLiner": "Raise fish (and grow greens) in a recirculating system and sell locally.",
+   "category": "Urban agriculture",
+   "categoryModel": "Urban agriculture / Product",
+   "customer": "Restaurants, local consumers",
+   "problem": "Local fresh fish and greens are scarce in winter climates.",
+   "whyNow": "UpFlip's #1 recent video, 'Selling Fish From His Backyard' (3.9M views in 4 months), plus the NASA-tech backyard farming video (3.7M). The audience appeal is huge.",
+   "signalLinks": [
+    {
+     "label": "$1M a Year Selling Fish From His Backyard",
+     "url": "https://www.youtube.com/watch?v=L8kpGiVuwz4"
+    },
+    {
+     "label": "NASA Secret Could Turn Your Backyard Into $10K/Month",
+     "url": "https://www.youtube.com/watch?v=rHMvDy0_MhA"
+    }
+   ],
+   "signals": "UpFlip: [$1M a Year Selling Fish From His Backyard](https://www.youtube.com/watch?v=L8kpGiVuwz4) (3.9M views, 4 mo); [NASA Secret Could Turn Your Backyard Into $10K/Month](https://www.youtube.com/watch?v=rHMvDy0_MhA) (3.7M views, 1 yr)",
+   "founderFit": "Founder A's control-systems background fits recirculating aquaculture well.",
+   "keyRisk": "Quebec aquaculture permits (MAPAQ/MELCCFP); live-animal risk; winter heating; long payback. Viral views ≠ fit with a small budget.",
+   "firstStep": "Research Quebec aquaculture permitting; visit one local operation before spending.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-24",
+   "rank": 24.0,
+   "name": "Small-Batch Candle & Home-Fragrance Brand",
+   "model": "DTC / wholesale",
+   "scores": {
+    "C1": 3.0,
+    "C2": 2.0,
+    "C3": 3.0,
+    "C4": 5.0,
+    "C5": 4.0,
+    "C6": 2.0,
+    "C7": 2.0,
+    "C8": 2.0
+   },
+   "score": 60.0,
+   "tier": "B",
+   "confidence": "Medium",
+   "oneLiner": "Hand-poured candles with a local Quebec brand, sold online, at markets and to boutiques.",
+   "category": "Consumer products",
+   "categoryModel": "Consumer products / DTC / wholesale",
+   "customer": "Gift buyers, boutiques, Airbnb hosts",
+   "problem": "Gifting demand is steady; local boutiques want local brands.",
+   "whyNow": "Candles have 3 UpFlip videos (2.8M, 1.0M, 515K views; '$500 startup').",
+   "signalLinks": [
+    {
+     "label": "Candle Business Makes $300,000 In 18 Months",
+     "url": "https://www.youtube.com/watch?v=UzZ5aTbiLh0"
+    },
+    {
+     "label": "Secretly Lucrative Candle Side-Hustle ($500 Startup)",
+     "url": "https://www.youtube.com/watch?v=DceUFX6bSXA"
+    }
+   ],
+   "signals": "UpFlip: [Candle Business Makes $300,000 In 18 Months](https://www.youtube.com/watch?v=UzZ5aTbiLh0) (2.8M views, 4 yr); [Secretly Lucrative Candle Side-Hustle ($500 Startup)](https://www.youtube.com/watch?v=DceUFX6bSXA) (515K views, 2 yr)",
+   "founderFit": "Low founder edge; doable on weekends.",
+   "keyRisk": "Saturated category; brand and marketing heavy; Health Canada labeling rules for consumer chemicals.",
+   "firstStep": "Make 3 scents and sell at one holiday market in December.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
    "id": "IG-20261027-01-25",
    "rank": 25.0,
    "name": "Industrial-to-Residential Conversion Advisory",
@@ -2264,6 +3403,63 @@ window.IDEAS_DATA = {
    "runDate": "2026-10-27",
    "focus": "Real Estate x Ops-Tech",
    "sourceFile": "02. Ideas/01. Initial/IG-20261027-01 - Idea List - Real Estate x Ops-Tech.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-25",
+   "rank": 25.0,
+   "name": "Peer-to-Peer Car Rental Fleet (Turo)",
+   "model": "Asset rental",
+   "scores": {
+    "C1": 3.0,
+    "C2": 3.0,
+    "C3": 3.0,
+    "C4": 3.0,
+    "C5": 4.0,
+    "C6": 2.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 59.0,
+   "tier": "C",
+   "confidence": "Low",
+   "oneLiner": "Start with 1–2 used cars on Turo; scale by reinvesting, as in the '1 car into 100 cars' UpFlip story.",
+   "category": "Auto",
+   "categoryModel": "Auto / rentals / Asset rental",
+   "customer": "Travelers, locals needing a temporary car",
+   "problem": "Rental counters are expensive and out of the way; travelers want delivery and variety.",
+   "whyNow": "Turo hosts in Quebec have earned $65M+ since 2016; UpFlip's '1 Car → 100-Car Business' video drew 2.2M views.",
+   "signalLinks": [
+    {
+     "label": "She Turned 1 Car Into A 100-Car Business ($250K/Month)",
+     "url": "https://www.youtube.com/watch?v=08uzmMQ3-RI"
+    },
+    {
+     "label": "From $0 to $175K/Month with a Car Rental Business",
+     "url": "https://www.youtube.com/watch?v=W_01eckETe0"
+    },
+    {
+     "label": "TravelPulse Canada — More Quebecers listing vehicles on Turo",
+     "url": "https://www.travelpulse.ca/news/car-rail/more-quebecers-listing-vehicles-on-turo-as-summer-travel-demand-accelerates"
+    },
+    {
+     "label": "BetaKit — Turo adds insurance providers in Quebec",
+     "url": "https://betakit.com/turo-adds-insurance-providers-to-gain-traction-in-the-quebec-market/"
+    },
+    {
+     "label": "Turo Help — Sharing your car, Canada hosts (eligible provinces)",
+     "url": "https://help.turo.com/en_us/sharing-your-car-canada-hosts-S1uY7_OIc.md"
+    }
+   ],
+   "signals": "UpFlip: [She Turned 1 Car Into A 100-Car Business ($250K/Month)](https://www.youtube.com/watch?v=08uzmMQ3-RI) (2.2M views, 1 yr); [From $0 to $175K/Month with a Car Rental Business](https://www.youtube.com/watch?v=W_01eckETe0) (163K views, 5 yr); [TravelPulse Canada — More Quebecers listing vehicles on Turo](https://www.travelpulse.ca/news/car-rail/more-quebecers-listing-vehicles-on-turo-as-summer-travel-demand-accelerates); [BetaKit — Turo adds insurance providers in Quebec](https://betakit.com/turo-adds-insurance-providers-to-gain-traction-in-the-quebec-market/); [Turo Help — Sharing your car, Canada hosts (eligible provinces)](https://help.turo.com/en_us/sharing-your-car-canada-hosts-S1uY7_OIc.md)",
+   "founderFit": "Founder B is used to managing assets and tenants; Founder A automates pricing and keyless entry.",
+   "keyRisk": "Turo's April 2026 Canada host page omits Quebec, which conflicts with Quebec news (verify eligibility); insurance; depreciation; damage.",
+   "firstStep": "Confirm Quebec host eligibility with Turo and an insurer; model one $12k car at local daily rates.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
    "stage": "Initial",
    "status": "Exploring"
   },
@@ -2381,6 +3577,96 @@ window.IDEAS_DATA = {
    "runDate": "2026-10-27",
    "focus": "Real Estate x Ops-Tech",
    "sourceFile": "02. Ideas/01. Initial/IG-20261027-01 - Idea List - Real Estate x Ops-Tech.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-26",
+   "rank": 26.0,
+   "name": "Backyard Beekeeping & Local Honey",
+   "model": "Product",
+   "scores": {
+    "C1": 3.0,
+    "C2": 3.0,
+    "C3": 3.0,
+    "C4": 3.0,
+    "C5": 2.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 57.0,
+   "tier": "C",
+   "confidence": "Low",
+   "oneLiner": "Place hives on host properties (rooftops, yards) and sell raw local honey and hive-hosting services to businesses.",
+   "category": "Urban agriculture",
+   "categoryModel": "Urban agriculture / Product",
+   "customer": "Local consumers, épiceries, corporate gifting",
+   "problem": "Buyers pay premiums for hyper-local honey; companies want ESG-visible rooftop hives.",
+   "whyNow": "Two bee videos ('$41K/Month Selling Honey' 1.8M; 'Knew Nothing About Bees' 148K in one month).",
+   "signalLinks": [
+    {
+     "label": "$41K/Month Selling Honey from His Garden",
+     "url": "https://www.youtube.com/watch?v=_xLV03L8gp4"
+    },
+    {
+     "label": "Knew Nothing About Bees and Now Makes $20K/Month",
+     "url": "https://www.youtube.com/watch?v=cob8P3mZ8y8"
+    }
+   ],
+   "signals": "UpFlip: [$41K/Month Selling Honey from His Garden](https://www.youtube.com/watch?v=_xLV03L8gp4) (1.8M views, 2 yr); [Knew Nothing About Bees and Now Makes $20K/Month](https://www.youtube.com/watch?v=cob8P3mZ8y8) (148K views, 1 mo)",
+   "founderFit": "Founder B's buildings can host hives; the corporate hive-hosting angle is clever.",
+   "keyRisk": "One harvest per year; colony losses in Quebec winters; MAPAQ registration needed for hives.",
+   "firstStep": "Take a beekeeping course this winter; secure 2 rooftop host agreements for spring.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-27",
+   "rank": 27.0,
+   "name": "Clothing & Sneaker Reselling",
+   "model": "Trading",
+   "scores": {
+    "C1": 3.0,
+    "C2": 1.0,
+    "C3": 2.0,
+    "C4": 5.0,
+    "C5": 5.0,
+    "C6": 2.0,
+    "C7": 3.0,
+    "C8": 1.0
+   },
+   "score": 57.0,
+   "tier": "C",
+   "confidence": "Medium",
+   "oneLiner": "Source thrift and liquidation clothing and sneakers and resell online.",
+   "category": "Reuse",
+   "categoryModel": "Reuse / trading / Trading",
+   "customer": "Online buyers (Vinted, eBay, Depop)",
+   "problem": "Secondhand fashion keeps growing; sourcing skill creates arbitrage.",
+   "whyNow": "'How People Quietly Get Rich Reselling Clothes' (1.6M views, 9 months); sneaker reselling at 869K.",
+   "signalLinks": [
+    {
+     "label": "How People Quietly Get Rich Reselling Clothes",
+     "url": "https://www.youtube.com/watch?v=xTigixXmBMQ"
+    },
+    {
+     "label": "From $50 to $4.2M/Year Sneaker Reselling Business",
+     "url": "https://www.youtube.com/watch?v=dJryzKeGwtU"
+    }
+   ],
+   "signals": "UpFlip: [How People Quietly Get Rich Reselling Clothes](https://www.youtube.com/watch?v=xTigixXmBMQ) (1.6M views, 9 mo); [From $50 to $4.2M/Year Sneaker Reselling Business](https://www.youtube.com/watch?v=dJryzKeGwtU) (869K views, 3 yr)",
+   "founderFit": "Neither founder has an edge; it is a pure hustle.",
+   "keyRisk": "Time-intensive; low margins; crowded.",
+   "firstStep": "Source $200 of stock; list 30 items; measure profit per hour.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
    "stage": "Initial",
    "status": "Exploring"
   },
@@ -2507,6 +3793,59 @@ window.IDEAS_DATA = {
    "status": "Exploring"
   },
   {
+   "id": "IG-20261028-01-28",
+   "rank": 28.0,
+   "name": "Home-Kitchen Specialty Food",
+   "model": "Product",
+   "scores": {
+    "C1": 3.0,
+    "C2": 1.0,
+    "C3": 3.0,
+    "C4": 3.0,
+    "C5": 3.0,
+    "C6": 2.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 51.0,
+   "tier": "C",
+   "confidence": "Low",
+   "oneLiner": "One hero product (sauce, frozen dumplings, baked good) made under a MAPAQ permit and sold locally.",
+   "category": "Food",
+   "categoryModel": "Food / Product",
+   "customer": "Local consumers, markets",
+   "problem": "Hero products build loyal followings.",
+   "whyNow": "Home-kitchen and hobby food videos: '$400K/Year From Her Home Kitchen' (551K), 'Kitchen Hobby Turned $320K' (1.4M), plus a 1.1M eggroll video.",
+   "signalLinks": [
+    {
+     "label": "She Earns $400K/Year From Her Home Kitchen ($700 Startup)",
+     "url": "https://www.youtube.com/watch?v=wR-mNKLti8k"
+    },
+    {
+     "label": "A Kitchen Hobby Turned Into a $320K/Year Business",
+     "url": "https://www.youtube.com/watch?v=J-KCIFG3B5M"
+    },
+    {
+     "label": "Québec.ca — Restaurant / retail food permits (home kitchens)",
+     "url": "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/industrie-bioalimentaire/permis-alimentaires/permis-restauration-vente-detail"
+    },
+    {
+     "label": "MAPAQ — Fiche 3: permits, registrations and authorizations (home-kitchen limits)",
+     "url": "https://www.mapaq.gouv.qc.ca/SiteCollectionDocuments/TransformationPortail/Fiche3_transfo_permis_enregistr_autorisations.pdf"
+    }
+   ],
+   "signals": "UpFlip: [She Earns $400K/Year From Her Home Kitchen ($700 Startup)](https://www.youtube.com/watch?v=wR-mNKLti8k) (551K views, 7 mo); [A Kitchen Hobby Turned Into a $320K/Year Business](https://www.youtube.com/watch?v=J-KCIFG3B5M) (1.4M views, 8 mo); [Québec.ca — Restaurant / retail food permits (home kitchens)](https://www.quebec.ca/entreprises-et-travailleurs-autonomes/industrie-bioalimentaire/permis-alimentaires/permis-restauration-vente-detail); [MAPAQ — Fiche 3: permits, registrations and authorizations (home-kitchen limits)](https://www.mapaq.gouv.qc.ca/SiteCollectionDocuments/TransformationPortail/Fiche3_transfo_permis_enregistr_autorisations.pdf)",
+   "founderFit": "No founder edge unless one of you has a recipe.",
+   "keyRisk": "MAPAQ permit (~$351/year reported) and home-kitchen limits (reported 100 kg/month, no wholesale); needs a commercial kitchen to scale.",
+   "firstStep": "Only if a recipe exists: test at one market under the right MAPAQ permit.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
    "id": "IG-20261027-01-30",
    "rank": 30.0,
    "name": "Laundromat Acquisition (SBA-Financed)",
@@ -2544,6 +3883,96 @@ window.IDEAS_DATA = {
    "runDate": "2026-10-27",
    "focus": "Real Estate x Ops-Tech",
    "sourceFile": "02. Ideas/01. Initial/IG-20261027-01 - Idea List - Real Estate x Ops-Tech.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-29",
+   "rank": 29.0,
+   "name": "Shipping-Container Farm",
+   "model": "Product",
+   "scores": {
+    "C1": 2.0,
+    "C2": 4.0,
+    "C3": 2.0,
+    "C4": 1.0,
+    "C5": 2.0,
+    "C6": 3.0,
+    "C7": 3.0,
+    "C8": 3.0
+   },
+   "score": 48.0,
+   "tier": "C",
+   "confidence": "Low",
+   "oneLiner": "Hydroponic farming in a retrofitted container.",
+   "category": "Urban agriculture",
+   "categoryModel": "Urban agriculture / Product",
+   "customer": "Grocers, restaurants",
+   "problem": "Year-round local produce demand.",
+   "whyNow": "'Shipping Container Farming is the Future!' (1.8M views).",
+   "signalLinks": [
+    {
+     "label": "Shipping Container Farming is the Future!",
+     "url": "https://www.youtube.com/watch?v=ueM54Q9AGZ4"
+    }
+   ],
+   "signals": "UpFlip: [Shipping Container Farming is the Future!](https://www.youtube.com/watch?v=ueM54Q9AGZ4) (1.8M views, 1 yr)",
+   "founderFit": "Strong automation fit.",
+   "keyRisk": "Turnkey containers cost well over $10k; energy cost in Quebec winters; many container farms failed.",
+   "firstStep": "Park; revisit only after mushrooms or microgreens prove demand.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
+   "stage": "Initial",
+   "status": "Exploring"
+  },
+  {
+   "id": "IG-20261028-01-30",
+   "rank": 30.0,
+   "name": "Food Truck",
+   "model": "Food service",
+   "scores": {
+    "C1": 3.0,
+    "C2": 1.0,
+    "C3": 3.0,
+    "C4": 1.0,
+    "C5": 1.0,
+    "C6": 2.0,
+    "C7": 3.0,
+    "C8": 2.0
+   },
+   "score": 41.0,
+   "tier": "C",
+   "confidence": "High",
+   "oneLiner": "A mobile food business.",
+   "category": "Food",
+   "categoryModel": "Food / Food service",
+   "customer": "Event-goers, office parks",
+   "problem": "Food trucks dominate UpFlip's audience appeal.",
+   "whyNow": "Food is UpFlip's biggest view driver (6 of the top 30 videos), including 2.0M and 1.7M views for food trucks alone.",
+   "signalLinks": [
+    {
+     "label": "$54K/Month Food Truck Business (What Did It Cost to Start?)",
+     "url": "https://www.youtube.com/watch?v=Qi_RBWualJ8"
+    },
+    {
+     "label": "This Food Truck Shouldn't Be This Successful ($660K/Year)",
+     "url": "https://www.youtube.com/watch?v=uXlLScPLfxU"
+    },
+    {
+     "label": "Forget Food Trucks (This is So Much Better)",
+     "url": "https://www.youtube.com/watch?v=3D8fGeDnb4M"
+    }
+   ],
+   "signals": "UpFlip: [$54K/Month Food Truck Business (What Did It Cost to Start?)](https://www.youtube.com/watch?v=Qi_RBWualJ8) (2.0M views, 4 yr); [This Food Truck Shouldn't Be This Successful ($660K/Year)](https://www.youtube.com/watch?v=uXlLScPLfxU) (1.7M views, 8 mo); [Forget Food Trucks (This is So Much Better)](https://www.youtube.com/watch?v=3D8fGeDnb4M) (1.2M views, 1 yr)",
+   "founderFit": "Poor fit: full-time, operational, not your skills.",
+   "keyRisk": "$50–150k builds; Montreal food-truck permits are restrictive; incompatible with nights and weekends.",
+   "firstStep": "Don't pursue. Listed to show why the most-viewed category is a bad fit.",
+   "runId": "IG-20261028-01",
+   "runDate": "2026-10-28",
+   "focus": "UpFlip Top-Performing Business Models",
+   "sourceFile": "02. Ideas/01. Initial/IG-20261028-01 - Idea List - UpFlip Top-Performing Business Models.md",
    "stage": "Initial",
    "status": "Exploring"
   }
