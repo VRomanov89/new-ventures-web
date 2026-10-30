@@ -308,6 +308,16 @@ function showDetail(id){
       $("rtabs").querySelectorAll(".tab").forEach(b => b.classList.toggle("on", +b.dataset.j === j));
     };
     $("rtabs").onclick = e => { if (e.target.dataset.j) show(+e.target.dataset.j); };
+    // Links between research files ("02. Competitors.md", "README.md") open the matching tab
+    $("rbody").onclick = e => {
+      const a = e.target.closest("a[href]"); if (!a) return;
+      const href = decodeURIComponent(a.getAttribute("href")).split("#")[0];
+      if (!/\.md$/i.test(href)) return;
+      e.preventDefault();
+      const file = href.split("/").pop().replace(/\.md$/i, "");
+      const j = /^readme$/i.test(file) ? 0 : tabs.findIndex(t => t.title === file.replace(/^\d{2}\. /, ""));
+      if (j >= 0) { show(j); $("rtabs").scrollIntoView({behavior: "smooth", block: "start"}); }
+    };
     show(0);
   }
   window.scrollTo(0, 0);
